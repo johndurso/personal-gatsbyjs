@@ -1038,20 +1038,18 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter",
-        "description": "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
-        "author": "@gatsbyjs"
+        "title": "John Durso",
+        "description": "My first Gatsby site.",
+        "author": "@hivemindjohn"
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-01-16T05:37:25.785Z",
+      "buildTime": "2019-01-16T06:31:14.567Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bc9181163bde7928b2f8e5cc22ab2476",
+        "contentDigest": "0f11f0e2ac4ae7727ed3025c2429ae32",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1061,7 +1059,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "fe358ec7a5a4b4ef198ea511606224a6",
+        "contentDigest": "96a57b6d79b7514b494c1640c27b4a1e",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1073,7 +1071,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-01-16T04:25:51.000Z",
-      "accessTime": "2019-01-16T05:37:30.433Z",
+      "accessTime": "2019-01-16T06:31:18.767Z",
       "changeTime": "2019-01-16T04:25:51.267Z",
       "birthTime": "2019-01-16T01:13:31.000Z",
       "root": "/",
@@ -1091,11 +1089,11 @@
       "blksize": 4096,
       "ino": 25825160,
       "blocks": 0,
-      "atimeMs": 1547617050433.0022,
+      "atimeMs": 1547620278766.863,
       "mtimeMs": 1547612751000,
       "ctimeMs": 1547612751267.28,
       "birthtimeMs": 1547601211000,
-      "atime": "2019-01-16T05:37:30.433Z",
+      "atime": "2019-01-16T06:31:18.767Z",
       "mtime": "2019-01-16T04:25:51.000Z",
       "ctime": "2019-01-16T04:25:51.267Z",
       "birthtime": "2019-01-16T01:13:31.000Z"
@@ -1311,46 +1309,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /second/": {
-      "jsonName": "second-2c0",
-      "internalComponentName": "ComponentSecond",
-      "path": "/second/",
-      "component": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/second.js",
-      "componentChunkName": "component---src-pages-second-js",
-      "context": {},
-      "pluginCreator___NODE": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
-      "pluginCreatorId": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
-      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/second.js",
-      "id": "SitePage /second/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "7504ba5847bf1330b2f017418093d677",
-        "description": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /third/": {
-      "jsonName": "third-f2a",
-      "internalComponentName": "ComponentThird",
-      "path": "/third/",
-      "component": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/third.js",
-      "componentChunkName": "component---src-pages-third-js",
-      "context": {},
-      "pluginCreator___NODE": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
-      "pluginCreatorId": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
-      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/third.js",
-      "id": "SitePage /third/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "87a0ac66a8758b05ae8c55eb0c2f6a5b",
-        "description": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /404.html": {
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
@@ -1368,6 +1326,46 @@
         "type": "SitePage",
         "contentDigest": "dd15fab9570f31d23f03a05d8355f7ef",
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+      "pluginCreatorId": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6b70e6199fbc60b8d9f966bd22772d53",
+        "description": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+      "pluginCreatorId": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "02fc1934f99f86977b6ed1f11b1ca3e6",
+        "description": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
         "owner": "internal-data-bridge"
       }
     }
@@ -1401,7 +1399,9 @@
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-image-js": 2663961920,
     "third-f2a": "39/path---third-f-2-a-5d9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "second-2c0": "723/path---second-2-c-0-b24-NZuapzHg3X9TaN1iIixfv1W23E"
+    "second-2c0": "723/path---second-2-c-0-b24-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/.cache/dev-404-page.js": {
@@ -1416,13 +1416,13 @@
       "query": "",
       "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/index.js"
     },
-    "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/second.js": {
+    "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/about.js": {
       "query": "",
-      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/second.js"
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/about.js"
     },
-    "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/third.js": {
+    "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/contact.js": {
       "query": "",
-      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/third.js"
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/contact.js"
     }
   },
   "staticQueryComponents": {
