@@ -1,10 +1,4 @@
-$ease : 0.3s ease all;
-
-$dpurp  : #36405f;
-$lpurp  : #49516e;
-$gray   : #73757f;
-$tan    : #b19e8d;
-$sand   : #c4af9c;
+@import '/g-styles.scss';
 
 @mixin ease($property){
   transition: $ease;
