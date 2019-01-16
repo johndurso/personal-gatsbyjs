@@ -5,21 +5,23 @@ import React from 'react'
 const Footer = ({ siteTitle }) => (
   <div
     style={{
+      position: `absolute`,
+      bottom: `0`,
+      width: `100%`,
       background: `#000`,
-      padding: `30px 0`,
-      marginBottom: `1.45rem`,
+      padding: `35px 0 10px 0`,
       color: `#fff`,
     }}
   >
     <div style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `0 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-          © {new Date().getFullYear()}, Built by <a href="https://twitter.com/hivemindjohn">@hivemindjohn</a> with <a href="https://www.gatsbyjs.org">GatsbyJS</a>
-      </h1>
+      <p>
+          © {new Date().getFullYear()} developed by <a href="https://twitter.com/hivemindjohn">@hivemindjohn</a>
+      </p>
     </div>
   </div>
 )

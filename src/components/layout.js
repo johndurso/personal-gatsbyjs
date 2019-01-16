@@ -31,14 +31,8 @@ const Layout = ({ children }) => (
           }}
         >
           {children}
-          <footer
-            style={{
-              fontSize: `0.85em`,
-              lineHeight: `2.5em`,
-              color: `#fff`,
-          }}>
-          </footer>
         </div>
+        <Footer />
       </>
     )}
   />
