@@ -13,6 +13,9 @@ const IndexPage = () => (
     <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
+    <div>
+      <Link className="button primary" to="/">Learn more</Link>
+    </div>
   </Layout>
 )
 

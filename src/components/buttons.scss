@@ -1,0 +1,16 @@
+.button {
+	display: inline-block;
+	padding: 15px 30px;
+	border-radius: 8px;
+
+	transition: 0.3s ease all;
+	-webkit-transition: 0.3s ease all;
+	-moz-transition: 0.3s ease all;
+}
+.primary {
+	background: rgba(72,75,81, 0.5);
+	color: #b5b7b9;
+	&:hover {
+		background: rgba(72,75,81, 1.0);
+	}
+}

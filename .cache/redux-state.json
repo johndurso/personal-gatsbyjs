@@ -231,6 +231,85 @@
         "owner": "internal-data-bridge"
       }
     },
+    "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8": {
+      "resolve": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/node_modules/gatsby-plugin-sass",
+      "id": "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8",
+      "name": "gatsby-plugin-sass",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b7c1488eec1df541ef3b6052cba36ea9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
       "resolve": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/node_modules/gatsby-plugin-react-helmet",
       "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
@@ -761,7 +840,7 @@
       "resolve": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "f1bb948b3bad570736c9dd391cbabaa3",
+      "version": "b7456e4cd73fdbe8a229423652e507f3",
       "pluginOptions": {
         "plugins": []
       },
@@ -800,6 +879,10 @@
             "version": "^3.0.2"
           },
           {
+            "name": "gatsby-plugin-sass",
+            "version": "^2.0.7"
+          },
+          {
             "name": "gatsby-plugin-sharp",
             "version": "^2.0.14"
           },
@@ -830,6 +913,10 @@
         ],
         "devDependencies": [
           {
+            "name": "node-sass",
+            "version": "^4.11.0"
+          },
+          {
             "name": "prettier",
             "version": "^1.15.2"
           }
@@ -841,7 +928,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "815fe299740cef9f516389c3b419b16b",
+        "contentDigest": "365d6a3e94f2bbf402309b8d1133945e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -959,12 +1046,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-16T02:25:16.561Z",
+      "buildTime": "2019-01-16T05:14:33.290Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "713bb90932816411c446d0e4c32f6fed",
+        "contentDigest": "82c82a8ae95494cdb4a15185da3e6dbc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -974,7 +1061,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4d76391986a5377f7718a6ddc46d44d0",
+        "contentDigest": "cf6f573efa6346a422d91b803cddb1e1",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -985,9 +1072,9 @@
       "extension": "",
       "size": 160,
       "prettySize": "160 B",
-      "modifiedTime": "2019-01-16T02:11:21.000Z",
-      "accessTime": "2019-01-16T02:25:22.445Z",
-      "changeTime": "2019-01-16T02:11:21.701Z",
+      "modifiedTime": "2019-01-16T04:25:51.000Z",
+      "accessTime": "2019-01-16T05:14:38.754Z",
+      "changeTime": "2019-01-16T04:25:51.267Z",
       "birthTime": "2019-01-16T01:13:31.000Z",
       "root": "/",
       "dir": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src",
@@ -1004,13 +1091,13 @@
       "blksize": 4096,
       "ino": 25825160,
       "blocks": 0,
-      "atimeMs": 1547605522444.5168,
-      "mtimeMs": 1547604681000,
-      "ctimeMs": 1547604681701.2998,
+      "atimeMs": 1547615678754.1616,
+      "mtimeMs": 1547612751000,
+      "ctimeMs": 1547612751267.28,
       "birthtimeMs": 1547601211000,
-      "atime": "2019-01-16T02:25:22.445Z",
-      "mtime": "2019-01-16T02:11:21.000Z",
-      "ctime": "2019-01-16T02:11:21.701Z",
+      "atime": "2019-01-16T05:14:38.754Z",
+      "mtime": "2019-01-16T04:25:51.000Z",
+      "ctime": "2019-01-16T04:25:51.267Z",
       "birthtime": "2019-01-16T01:13:31.000Z"
     },
     "930167eb-eee4-585d-86a6-775c7bb3955e": {
@@ -1033,7 +1120,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-16T01:13:31.670Z",
-      "accessTime": "2019-01-16T02:12:47.931Z",
+      "accessTime": "2019-01-16T05:13:57.850Z",
       "changeTime": "2019-01-16T01:13:32.601Z",
       "birthTime": "2019-01-16T01:13:31.669Z",
       "root": "/",
@@ -1051,11 +1138,11 @@
       "blksize": 4096,
       "ino": 25825164,
       "blocks": 48,
-      "atimeMs": 1547604767931.1853,
+      "atimeMs": 1547615637849.7415,
       "mtimeMs": 1547601211669.583,
       "ctimeMs": 1547601212600.9094,
       "birthtimeMs": 1547601211669.3235,
-      "atime": "2019-01-16T02:12:47.931Z",
+      "atime": "2019-01-16T05:13:57.850Z",
       "mtime": "2019-01-16T01:13:31.670Z",
       "ctime": "2019-01-16T01:13:32.601Z",
       "birthtime": "2019-01-16T01:13:31.669Z"
@@ -1090,7 +1177,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2019-01-16T01:13:31.669Z",
-      "accessTime": "2019-01-16T02:12:25.651Z",
+      "accessTime": "2019-01-16T05:11:49.998Z",
       "changeTime": "2019-01-16T01:13:32.596Z",
       "birthTime": "2019-01-16T01:13:31.668Z",
       "root": "/",
@@ -1108,11 +1195,11 @@
       "blksize": 4096,
       "ino": 25825163,
       "blocks": 328,
-      "atimeMs": 1547604745651.4197,
+      "atimeMs": 1547615509998.1287,
       "mtimeMs": 1547601211668.8555,
       "ctimeMs": 1547601212596.1003,
       "birthtimeMs": 1547601211667.692,
-      "atime": "2019-01-16T02:12:25.651Z",
+      "atime": "2019-01-16T05:11:49.998Z",
       "mtime": "2019-01-16T01:13:31.669Z",
       "ctime": "2019-01-16T01:13:32.596Z",
       "birthtime": "2019-01-16T01:13:31.668Z"
@@ -1147,7 +1234,7 @@
       "size": 698508,
       "prettySize": "699 kB",
       "modifiedTime": "2018-12-04T23:01:01.571Z",
-      "accessTime": "2019-01-16T02:12:36.725Z",
+      "accessTime": "2019-01-16T05:11:50.948Z",
       "changeTime": "2019-01-16T02:04:03.350Z",
       "birthTime": "2018-12-04T23:01:01.569Z",
       "root": "/",
@@ -1165,11 +1252,11 @@
       "blksize": 4096,
       "ino": 25933538,
       "blocks": 1368,
-      "atimeMs": 1547604756724.628,
+      "atimeMs": 1547615510947.613,
       "mtimeMs": 1543964461570.6138,
       "ctimeMs": 1547604243349.855,
       "birthtimeMs": 1543964461569.1682,
-      "atime": "2019-01-16T02:12:36.725Z",
+      "atime": "2019-01-16T05:11:50.948Z",
       "mtime": "2018-12-04T23:01:01.571Z",
       "ctime": "2019-01-16T02:04:03.350Z",
       "birthtime": "2018-12-04T23:01:01.569Z"
@@ -1224,23 +1311,23 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /404.html": {
-      "jsonName": "404-html-516",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
+    "SitePage /second/": {
+      "jsonName": "second-2c0",
+      "internalComponentName": "ComponentSecond",
+      "path": "/second/",
+      "component": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/second.js",
+      "componentChunkName": "component---src-pages-second-js",
       "context": {},
-      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/404.js",
-      "id": "SitePage /404.html",
+      "pluginCreator___NODE": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+      "pluginCreatorId": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/second.js",
+      "id": "SitePage /second/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dd15fab9570f31d23f03a05d8355f7ef",
-        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "contentDigest": "7504ba5847bf1330b2f017418093d677",
+        "description": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
         "owner": "internal-data-bridge"
       }
     },
@@ -1264,30 +1351,30 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /second/": {
-      "jsonName": "second-2c0",
-      "internalComponentName": "ComponentSecond",
-      "path": "/second/",
-      "component": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/second.js",
-      "componentChunkName": "component---src-pages-second-js",
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
-      "pluginCreatorId": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
-      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/second.js",
-      "id": "SitePage /second/",
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/404.js",
+      "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7504ba5847bf1330b2f017418093d677",
-        "description": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+        "contentDigest": "dd15fab9570f31d23f03a05d8355f7ef",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "24d889c947900f582fcfef6e8fa31086"
+    "PLUGINS_HASH": "6a28af91c020b640adb3d5e8f609173a"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1317,6 +1404,10 @@
     "second-2c0": "723/path---second-2-c-0-b24-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/.cache/dev-404-page.js"
+    },
     "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/404.js"
@@ -1325,28 +1416,16 @@
       "query": "",
       "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/index.js"
     },
-    "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/.cache/dev-404-page.js": {
+    "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/second.js": {
       "query": "",
-      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/.cache/dev-404-page.js"
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/second.js"
     },
     "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/third.js": {
       "query": "",
       "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/third.js"
-    },
-    "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/second.js": {
-      "query": "",
-      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/second.js"
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-image-js": {
-      "name": "usersJohndursoDesktopGatsbyAppPersonalGatsbyjsSrcComponentsImageJs2663961920",
-      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/components/image.js",
-      "id": "sq--src-components-image-js",
-      "jsonName": "sq--src-components-image-js",
-      "query": "query usersJohndursoDesktopGatsbyAppPersonalGatsbyjsSrcComponentsImageJs2663961920 {\n  placeholderImage: file(relativePath: {eq: \"spongebob-patrick-creepy.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 2663961920
-    },
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
       "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/components/layout.js",
@@ -1354,6 +1433,14 @@
       "jsonName": "sq--src-components-layout-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
       "hash": 755544856
+    },
+    "sq--src-components-image-js": {
+      "name": "usersJohndursoDesktopGatsbyAppPersonalGatsbyjsSrcComponentsImageJs2663961920",
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersJohndursoDesktopGatsbyAppPersonalGatsbyjsSrcComponentsImageJs2663961920 {\n  placeholderImage: file(relativePath: {eq: \"spongebob-patrick-creepy.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2663961920
     },
     "sq--src-components-seo-js": {
       "name": "DefaultSEOQuery",
