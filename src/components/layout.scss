@@ -1,3 +1,17 @@
+$dpurp  : #36405f;
+$lpurp  : #49516e;
+$gray   : #73757f;
+$tan    : #b19e8d;
+$sand   : #c4af9c;
+
+$ease   : 0.3s ease all;
+
+@mixin ease($property){
+  transition: $ease;
+  -webkit-transition: $ease;
+  -moz-transition: $ease;
+}
+
 html {
   font-family: Helvetica Neue, sans-serif;
   -ms-text-size-adjust: 100%;
@@ -38,18 +52,16 @@ template {
   display: none;
 }
 a {
-  color: #b5b7b9;
+  color: $sand;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   text-decoration: none;
-  transition: 0.3s ease all;
-  -webkit-transition: 0.3s ease all;
-  -moz-transition: 0.3s ease all;
+  @include ease(transition($ease));
 }
 a:active,
 a:hover {
   outline-width: 0;
-  color: #fff;
+  color: darken($sand, 10%);
 }
 abbr[title] {
   border-bottom: none;
@@ -203,7 +215,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  background: rgb(32,34,37);
+  background: $lpurp;
   color: #b5b7b9;
   font-family: Helvetica Neue, sans-serif;
   font-weight: normal;

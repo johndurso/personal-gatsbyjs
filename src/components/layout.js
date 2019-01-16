@@ -7,6 +7,7 @@ import Footer from './footer'
 
 import './layout.scss'
 import './buttons.scss'
+import './form.scss'
 
 const Layout = ({ children }) => (
   <StaticQuery

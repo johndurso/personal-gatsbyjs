@@ -8,7 +8,7 @@ const Footer = ({ siteTitle }) => (
       position: `absolute`,
       bottom: `0`,
       width: `100%`,
-      background: `#000`,
+      background: `#36405f`,
       padding: `35px 0 10px 0`,
       color: `#fff`,
     }}
