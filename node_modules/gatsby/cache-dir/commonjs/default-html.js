@@ -19,7 +19,10 @@ class HTML extends _react.default.Component {
     }), _react.default.createElement("meta", {
       name: "viewport",
       content: "width=device-width, initial-scale=1, shrink-to-fit=no"
-    }), this.props.headComponents), _react.default.createElement("body", this.props.bodyAttributes, this.props.preBodyComponents, _react.default.createElement("div", {
+    }), this.props.headComponents), _react.default.createElement("body", this.props.bodyAttributes, this.props.preBodyComponents, _react.default.createElement("noscript", {
+      key: "noscript",
+      id: "gatsby-noscript"
+    }, "This app works best with JavaScript enabled."), _react.default.createElement("div", {
       key: `body`,
       id: "___gatsby",
       dangerouslySetInnerHTML: {
