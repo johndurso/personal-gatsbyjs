@@ -3,7 +3,10 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+import Footer from './footer'
+
 import './layout.css'
+import './buttons.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -32,8 +35,8 @@ const Layout = ({ children }) => (
             style={{
               fontSize: `0.85em`,
               lineHeight: `2.5em`,
+              color: `#fff`,
           }}>
-            © {new Date().getFullYear()}, Built by <a href="https://twitter.com/hivemindjohn">@hivemindjohn</a> with <a href="https://www.gatsbyjs.org">GatsbyJS</a>
           </footer>
         </div>
       </>
