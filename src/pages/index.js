@@ -12,6 +12,20 @@ const IndexPage = () => (
     <p>...come back soon!</p>
     <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
       <Image />
+      <form name="contact-test" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
     </div>
     <div>
       <Link className="button primary" to="/">Learn more</Link>
