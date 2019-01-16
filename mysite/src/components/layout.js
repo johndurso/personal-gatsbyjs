@@ -28,10 +28,12 @@ const Layout = ({ children }) => (
           }}
         >
           {children}
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <footer
+            style={{
+              fontSize: `0.85em`,
+              lineHeight: `2.5em`,
+          }}>
+            © {new Date().getFullYear()}, Built by <a href="https://twitter.com/hivemindjohn">@hivemindjohn</a> with <a href="https://www.gatsbyjs.org">GatsbyJS</a>
           </footer>
         </div>
       </>
