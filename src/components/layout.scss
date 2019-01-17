@@ -446,15 +446,16 @@ li > p {
 }
 
 .navigation {
-  color: #fff;
+  background: $dpurp;
   text-align: center;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
-  max-width: 960px;
+  margin-bottom: 40px;
 }
 .navigation a {
-  margin: 10px 30px;
+  padding: 20px 30px;
+  font-weight: bold;
 }
 
 .grid-container {

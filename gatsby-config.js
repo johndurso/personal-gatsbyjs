@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `John Durso`,
+    title: `First Gatsby Site`,
     description: `My first Gatsby site.`,
     author: `@hivemindjohn`,
   },
@@ -34,7 +34,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages'
+        name: 'pages',
       }
     },
     'gatsby-transformer-remark',

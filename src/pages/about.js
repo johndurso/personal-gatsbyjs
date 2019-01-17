@@ -9,6 +9,7 @@ const About = () => (
     <SEO title="About" />
     <h1>Welcome to the about page</h1>
     <p>Something great will be here soon!</p>
+    <Link className="button primary" to="/">Click here</Link>
   </Layout>
 )
 
