@@ -2,10 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 
 const Footer = () => (
-  <div style={{
-        marginBottom: `150px`,
-  }}
-  >
+  <div>
     <div
       style={{
         position: `fixed`,

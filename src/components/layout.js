@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+
 import Header from './header'
 import Menu from './menu'
 import Footer from './footer'
