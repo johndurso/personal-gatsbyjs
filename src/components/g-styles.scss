@@ -7,3 +7,24 @@ $tan    : #b19e8d;
 $sand   : #c4af9c;
 
 $ease   : 0.3s ease all;
+
+@mixin ease($property){
+  transition: $ease;
+  -webkit-transition: $ease;
+  -moz-transition: $ease;
+}
+
+h1 {
+	a {
+		display: inline-block;
+		padding: 10px;
+		color: $sand;
+      	background: $dpurp;
+	  	@include ease(transition($ease));
+		
+		&:hover {
+			background: #fff;
+			color: $lpurp;
+		}
+	}
+}

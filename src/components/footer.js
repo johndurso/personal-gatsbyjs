@@ -5,8 +5,6 @@ const Footer = () => (
   <div>
     <div
       style={{
-        position: `fixed`,
-        bottom: `0`,
         width: `100%`,
         background: `#36405f`,
         padding: `35px 0 10px 0`,
