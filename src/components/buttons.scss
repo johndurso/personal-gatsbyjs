@@ -21,6 +21,7 @@
 	}
 
 	&:hover {
+		cursor: pointer;
 		&:before {
 			left: 0;
 		}
@@ -64,6 +65,7 @@
 	}
 
 	&:hover {
+		cursor: pointer;
 		color: #eee;
 		background: rgba(255,255,255,0.3);
 	}

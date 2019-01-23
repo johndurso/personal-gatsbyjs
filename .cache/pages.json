@@ -25,6 +25,11 @@
         "path": "/blog/"
     },
     {
+        "componentChunkName": "component---src-pages-choosing-between-flexbox-or-grid-js",
+        "jsonName": "choosing-between-flexbox-or-grid-bab",
+        "path": "/choosing-between-flexbox-or-grid/"
+    },
+    {
         "componentChunkName": "component---src-pages-contact-js",
         "jsonName": "contact-26a",
         "path": "/contact/"
@@ -38,5 +43,15 @@
         "componentChunkName": "component---src-pages-new-site-for-chr-communications-js",
         "jsonName": "new-site-for-chr-communications-dac",
         "path": "/new-site-for-chr-communications/"
+    },
+    {
+        "componentChunkName": "component---src-pages-trying-out-gatsbyjs-js",
+        "jsonName": "trying-out-gatsbyjs-730",
+        "path": "/trying-out-gatsbyjs/"
+    },
+    {
+        "componentChunkName": "component---src-pages-what-ive-been-listening-to-js",
+        "jsonName": "what-ive-been-listening-to-07f",
+        "path": "/what-ive-been-listening-to/"
     }
 ]
