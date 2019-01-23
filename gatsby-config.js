@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `First Gatsby Site`,
-    description: `My first Gatsby site.`,
+    title: `johndurso.co`,
+    description: `Web Developer from Detroit, Michigan. Contact me for a great price on a optimized website! (248) 330-9364`,
     author: `@hivemindjohn`,
   },
   plugins: [

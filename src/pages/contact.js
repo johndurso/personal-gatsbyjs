@@ -8,7 +8,7 @@ import SEO from '../components/seo'
 const Contact = () => (
   <Layout>
     <SEO title="Contact" />
-    <h1>Contact me</h1>
+    <h2>Contact me</h2>
     <form
     	name="contact"
     	method="post"

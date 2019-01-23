@@ -20,6 +20,11 @@
         "path": "/about/"
     },
     {
+        "componentChunkName": "component---src-pages-blog-js",
+        "jsonName": "blog-f7a",
+        "path": "/blog/"
+    },
+    {
         "componentChunkName": "component---src-pages-contact-js",
         "jsonName": "contact-26a",
         "path": "/contact/"
@@ -28,5 +33,10 @@
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-new-site-for-chr-communications-js",
+        "jsonName": "new-site-for-chr-communications-dac",
+        "path": "/new-site-for-chr-communications/"
     }
 ]

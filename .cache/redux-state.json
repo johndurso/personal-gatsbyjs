@@ -1391,7 +1391,7 @@
       "resolve": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "0c6fcc14124dbb95007125e12859b18c",
+      "version": "a3439e95dc47f2b524b2eb56a35036b1",
       "pluginOptions": {
         "plugins": []
       },
@@ -1400,8 +1400,8 @@
       "ssrAPIs": [],
       "pluginFilepath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs",
       "packageJson": {
-        "name": "gatsby-starter-default",
-        "description": "A simple starter to get up and developing quickly with Gatsby",
+        "name": "balls",
+        "description": "Gatsby barebones theme",
         "version": "0.1.0",
         "keywords": [
           "gatsby"
@@ -1499,7 +1499,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ea2f96b41ff5f2390f147804741a2391",
+        "contentDigest": "d645f31674a209fe8e91795a169741d7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1609,20 +1609,20 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "First Gatsby Site",
-        "description": "My first Gatsby site.",
+        "title": "johndurso.co",
+        "description": "Web Developer from Detroit, Michigan. Contact me for a great price on a optimized website! (248) 330-9364",
         "author": "@hivemindjohn"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-18T23:01:54.231Z",
+      "buildTime": "2019-01-23T04:57:07.661Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "55478739c63e79e1e703d1ecb5764f2d",
+        "contentDigest": "def672ae0fb4cb66541bfeb1a7d51191",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1632,7 +1632,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c306be748253bd914b11a5b2df6b3b35",
+        "contentDigest": "18844471fe27acacc24fdd419c428a58",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1644,8 +1644,8 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-01-16T04:25:48.000Z",
-      "accessTime": "2019-01-18T23:01:59.902Z",
-      "changeTime": "2019-01-16T22:01:00.627Z",
+      "accessTime": "2019-01-23T04:57:15.309Z",
+      "changeTime": "2019-01-19T23:28:09.332Z",
       "birthTime": "2019-01-16T01:13:31.000Z",
       "root": "/",
       "dir": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src",
@@ -1662,13 +1662,13 @@
       "blksize": 4096,
       "ino": 25825160,
       "blocks": 0,
-      "atimeMs": 1547852519902.158,
+      "atimeMs": 1548219435308.8054,
       "mtimeMs": 1547612748000,
-      "ctimeMs": 1547676060626.5784,
+      "ctimeMs": 1547940489331.8147,
       "birthtimeMs": 1547601211000,
-      "atime": "2019-01-18T23:01:59.902Z",
+      "atime": "2019-01-23T04:57:15.309Z",
       "mtime": "2019-01-16T04:25:48.000Z",
-      "ctime": "2019-01-16T22:01:00.627Z",
+      "ctime": "2019-01-19T23:28:09.332Z",
       "birthtime": "2019-01-16T01:13:31.000Z"
     },
     "930167eb-eee4-585d-86a6-775c7bb3955e": {
@@ -1691,7 +1691,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-16T01:13:31.670Z",
-      "accessTime": "2019-01-17T04:21:50.224Z",
+      "accessTime": "2019-01-19T18:15:37.508Z",
       "changeTime": "2019-01-16T01:13:32.601Z",
       "birthTime": "2019-01-16T01:13:31.669Z",
       "root": "/",
@@ -1709,11 +1709,11 @@
       "blksize": 4096,
       "ino": 25825164,
       "blocks": 48,
-      "atimeMs": 1547698910223.732,
+      "atimeMs": 1547921737508.1597,
       "mtimeMs": 1547601211669.583,
       "ctimeMs": 1547601212600.9094,
       "birthtimeMs": 1547601211669.3235,
-      "atime": "2019-01-17T04:21:50.224Z",
+      "atime": "2019-01-19T18:15:37.508Z",
       "mtime": "2019-01-16T01:13:31.670Z",
       "ctime": "2019-01-16T01:13:32.601Z",
       "birthtime": "2019-01-16T01:13:31.669Z"
@@ -1724,63 +1724,6 @@
       "parent": "930167eb-eee4-585d-86a6-775c7bb3955e",
       "internal": {
         "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "3074d580-b641-5a96-bbc2-02dfb9644615": {
-      "id": "3074d580-b641-5a96-bbc2-02dfb9644615",
-      "children": [
-        "f9e90ee1-2e20-5ff6-8df7-30d85e2d121e"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/gatsby-astronaut.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/images/gatsby-astronaut.png",
-      "relativePath": "gatsby-astronaut.png",
-      "extension": "png",
-      "size": 167273,
-      "prettySize": "167 kB",
-      "modifiedTime": "2019-01-16T01:13:31.669Z",
-      "accessTime": "2019-01-17T04:21:49.324Z",
-      "changeTime": "2019-01-16T01:13:32.596Z",
-      "birthTime": "2019-01-16T01:13:31.668Z",
-      "root": "/",
-      "dir": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/images",
-      "base": "gatsby-astronaut.png",
-      "ext": ".png",
-      "name": "gatsby-astronaut",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 25825163,
-      "blocks": 328,
-      "atimeMs": 1547698909323.7192,
-      "mtimeMs": 1547601211668.8555,
-      "ctimeMs": 1547601212596.1003,
-      "birthtimeMs": 1547601211667.692,
-      "atime": "2019-01-17T04:21:49.324Z",
-      "mtime": "2019-01-16T01:13:31.669Z",
-      "ctime": "2019-01-16T01:13:32.596Z",
-      "birthtime": "2019-01-16T01:13:31.668Z"
-    },
-    "f9e90ee1-2e20-5ff6-8df7-30d85e2d121e": {
-      "id": "f9e90ee1-2e20-5ff6-8df7-30d85e2d121e",
-      "children": [],
-      "parent": "3074d580-b641-5a96-bbc2-02dfb9644615",
-      "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1805,7 +1748,7 @@
       "size": 698508,
       "prettySize": "699 kB",
       "modifiedTime": "2018-12-04T23:01:01.571Z",
-      "accessTime": "2019-01-17T04:21:53.858Z",
+      "accessTime": "2019-01-22T19:02:58.115Z",
       "changeTime": "2019-01-16T02:04:03.350Z",
       "birthTime": "2018-12-04T23:01:01.569Z",
       "root": "/",
@@ -1823,11 +1766,11 @@
       "blksize": 4096,
       "ino": 25933538,
       "blocks": 1368,
-      "atimeMs": 1547698913858.3357,
+      "atimeMs": 1548183778114.9521,
       "mtimeMs": 1543964461570.6138,
       "ctimeMs": 1547604243349.855,
       "birthtimeMs": 1543964461569.1682,
-      "atime": "2019-01-17T04:21:53.858Z",
+      "atime": "2019-01-22T19:02:58.115Z",
       "mtime": "2018-12-04T23:01:01.571Z",
       "ctime": "2019-01-16T02:04:03.350Z",
       "birthtime": "2018-12-04T23:01:01.569Z"
@@ -1842,12 +1785,69 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "3074d580-b641-5a96-bbc2-02dfb9644615": {
+      "id": "3074d580-b641-5a96-bbc2-02dfb9644615",
+      "children": [
+        "f9e90ee1-2e20-5ff6-8df7-30d85e2d121e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2019-01-16T01:13:31.669Z",
+      "accessTime": "2019-01-19T18:15:37.505Z",
+      "changeTime": "2019-01-16T01:13:32.596Z",
+      "birthTime": "2019-01-16T01:13:31.668Z",
+      "root": "/",
+      "dir": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 25825163,
+      "blocks": 328,
+      "atimeMs": 1547921737504.9958,
+      "mtimeMs": 1547601211668.8555,
+      "ctimeMs": 1547601212596.1003,
+      "birthtimeMs": 1547601211667.692,
+      "atime": "2019-01-19T18:15:37.505Z",
+      "mtime": "2019-01-16T01:13:31.669Z",
+      "ctime": "2019-01-16T01:13:32.596Z",
+      "birthtime": "2019-01-16T01:13:31.668Z"
+    },
+    "f9e90ee1-2e20-5ff6-8df7-30d85e2d121e": {
+      "id": "f9e90ee1-2e20-5ff6-8df7-30d85e2d121e",
+      "children": [],
+      "parent": "3074d580-b641-5a96-bbc2-02dfb9644615",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "f66bed05-99cb-5c8b-84d7-7d4f3d605e85": {
       "id": "f66bed05-99cb-5c8b-84d7-7d4f3d605e85",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c28b6aa9cdd9b23f72c2fba721c6b15b",
+        "contentDigest": "b2154222b715cf50bed4f6ef4201f51b",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1856,11 +1856,11 @@
       "absolutePath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages",
       "relativePath": "",
       "extension": "",
-      "size": 192,
-      "prettySize": "192 B",
-      "modifiedTime": "2019-01-17T04:36:31.000Z",
-      "accessTime": "2019-01-18T23:01:59.917Z",
-      "changeTime": "2019-01-17T04:36:31.587Z",
+      "size": 288,
+      "prettySize": "288 B",
+      "modifiedTime": "2019-01-23T03:55:40.000Z",
+      "accessTime": "2019-01-23T04:57:15.501Z",
+      "changeTime": "2019-01-23T03:55:41.759Z",
       "birthTime": "2019-01-16T01:13:31.000Z",
       "root": "/",
       "dir": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src",
@@ -1870,20 +1870,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 6,
+      "nlink": 9,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 25825165,
       "blocks": 0,
-      "atimeMs": 1547852519917.4285,
-      "mtimeMs": 1547699791000,
-      "ctimeMs": 1547699791586.9817,
+      "atimeMs": 1548219435500.7524,
+      "mtimeMs": 1548215740000,
+      "ctimeMs": 1548215741759.302,
       "birthtimeMs": 1547601211000,
-      "atime": "2019-01-18T23:01:59.917Z",
-      "mtime": "2019-01-17T04:36:31.000Z",
-      "ctime": "2019-01-17T04:36:31.587Z",
+      "atime": "2019-01-23T04:57:15.501Z",
+      "mtime": "2019-01-23T03:55:40.000Z",
+      "ctime": "2019-01-23T03:55:41.759Z",
       "birthtime": "2019-01-16T01:13:31.000Z"
     },
     "bf0acf01-8fd6-5d32-ac62-f2870834626e": {
@@ -1904,7 +1904,7 @@
       "size": 318,
       "prettySize": "318 B",
       "modifiedTime": "2019-01-16T01:13:31.671Z",
-      "accessTime": "2019-01-17T04:21:53.901Z",
+      "accessTime": "2019-01-23T02:16:08.248Z",
       "changeTime": "2019-01-16T01:13:32.609Z",
       "birthTime": "2019-01-16T01:13:31.670Z",
       "root": "/",
@@ -1922,11 +1922,11 @@
       "blksize": 4096,
       "ino": 25825166,
       "blocks": 8,
-      "atimeMs": 1547698913901.3953,
+      "atimeMs": 1548209768248.1013,
       "mtimeMs": 1547601211670.538,
       "ctimeMs": 1547601212608.7551,
       "birthtimeMs": 1547601211670.4304,
-      "atime": "2019-01-17T04:21:53.901Z",
+      "atime": "2019-01-23T02:16:08.248Z",
       "mtime": "2019-01-16T01:13:31.671Z",
       "ctime": "2019-01-16T01:13:32.609Z",
       "birthtime": "2019-01-16T01:13:31.670Z"
@@ -1936,7 +1936,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "14a721414b27eeebe186919fffc9fee1",
+        "contentDigest": "d05f780f5f96d848f4f31d5ae2dc8a6a",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/about.js\"",
@@ -1948,9 +1948,9 @@
       "extension": "js",
       "size": 378,
       "prettySize": "378 B",
-      "modifiedTime": "2019-01-17T02:24:45.976Z",
-      "accessTime": "2019-01-17T04:21:53.901Z",
-      "changeTime": "2019-01-17T02:24:45.976Z",
+      "modifiedTime": "2019-01-23T02:28:21.437Z",
+      "accessTime": "2019-01-23T02:28:21.448Z",
+      "changeTime": "2019-01-23T02:28:21.437Z",
       "birthTime": "2019-01-16T01:13:31.671Z",
       "root": "/",
       "dir": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages",
@@ -1967,13 +1967,13 @@
       "blksize": 4096,
       "ino": 25825168,
       "blocks": 8,
-      "atimeMs": 1547698913901.4106,
-      "mtimeMs": 1547691885975.9246,
-      "ctimeMs": 1547691885975.9246,
+      "atimeMs": 1548210501448.1038,
+      "mtimeMs": 1548210501436.6685,
+      "ctimeMs": 1548210501436.6685,
       "birthtimeMs": 1547601211671.4453,
-      "atime": "2019-01-17T04:21:53.901Z",
-      "mtime": "2019-01-17T02:24:45.976Z",
-      "ctime": "2019-01-17T02:24:45.976Z",
+      "atime": "2019-01-23T02:28:21.448Z",
+      "mtime": "2019-01-23T02:28:21.437Z",
+      "ctime": "2019-01-23T02:28:21.437Z",
       "birthtime": "2019-01-16T01:13:31.671Z"
     },
     "09b560e2-3769-5b0f-9baf-56dafe0f8568": {
@@ -1981,7 +1981,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "3833888640fe3b251998475c4ad894c0",
+        "contentDigest": "a1e7e57c43a7447c216cfb1a7de27943",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/contact.js\"",
@@ -1993,10 +1993,10 @@
       "extension": "js",
       "size": 587,
       "prettySize": "587 B",
-      "modifiedTime": "2019-01-16T08:19:07.558Z",
-      "accessTime": "2019-01-17T04:21:53.901Z",
-      "changeTime": "2019-01-16T08:19:07.558Z",
-      "birthTime": "2019-01-16T03:05:08.473Z",
+      "modifiedTime": "2019-01-23T02:21:40.936Z",
+      "accessTime": "2019-01-23T02:21:41.351Z",
+      "changeTime": "2019-01-23T02:21:40.936Z",
+      "birthTime": "2019-01-16T03:05:08.000Z",
       "root": "/",
       "dir": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages",
       "base": "contact.js",
@@ -2012,21 +2012,21 @@
       "blksize": 4096,
       "ino": 26039053,
       "blocks": 8,
-      "atimeMs": 1547698913901.4521,
-      "mtimeMs": 1547626747557.9453,
-      "ctimeMs": 1547626747557.9453,
-      "birthtimeMs": 1547607908472.5227,
-      "atime": "2019-01-17T04:21:53.901Z",
-      "mtime": "2019-01-16T08:19:07.558Z",
-      "ctime": "2019-01-16T08:19:07.558Z",
-      "birthtime": "2019-01-16T03:05:08.473Z"
+      "atimeMs": 1548210101351.122,
+      "mtimeMs": 1548210100936.0137,
+      "ctimeMs": 1548210100936.0137,
+      "birthtimeMs": 1547607908000,
+      "atime": "2019-01-23T02:21:41.351Z",
+      "mtime": "2019-01-23T02:21:40.936Z",
+      "ctime": "2019-01-23T02:21:40.936Z",
+      "birthtime": "2019-01-16T03:05:08.000Z"
     },
     "6faa56de-f91e-591a-84d0-b0fe3596450f": {
       "id": "6faa56de-f91e-591a-84d0-b0fe3596450f",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "2f5ad42ede02c4c12a8bd4777fe8a061",
+        "contentDigest": "e7d6de96e1a8584e505e6cb23211d1fa",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/index.js\"",
@@ -2036,12 +2036,12 @@
       "absolutePath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/index.js",
       "relativePath": "index.js",
       "extension": "js",
-      "size": 1429,
-      "prettySize": "1.43 kB",
-      "modifiedTime": "2019-01-17T04:36:29.175Z",
-      "accessTime": "2019-01-17T04:36:29.286Z",
-      "changeTime": "2019-01-17T04:36:29.175Z",
-      "birthTime": "2019-01-16T01:13:31.671Z",
+      "size": 1385,
+      "prettySize": "1.39 kB",
+      "modifiedTime": "2019-01-23T02:24:59.890Z",
+      "accessTime": "2019-01-23T02:24:59.908Z",
+      "changeTime": "2019-01-23T02:24:59.890Z",
+      "birthTime": "2019-01-16T01:13:31.000Z",
       "root": "/",
       "dir": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages",
       "base": "index.js",
@@ -2057,14 +2057,104 @@
       "blksize": 4096,
       "ino": 25825167,
       "blocks": 8,
-      "atimeMs": 1547699789286.3655,
-      "mtimeMs": 1547699789174.8403,
-      "ctimeMs": 1547699789174.8403,
-      "birthtimeMs": 1547601211670.9668,
-      "atime": "2019-01-17T04:36:29.286Z",
-      "mtime": "2019-01-17T04:36:29.175Z",
-      "ctime": "2019-01-17T04:36:29.175Z",
-      "birthtime": "2019-01-16T01:13:31.671Z"
+      "atimeMs": 1548210299907.789,
+      "mtimeMs": 1548210299889.6768,
+      "ctimeMs": 1548210299889.6768,
+      "birthtimeMs": 1547601211000,
+      "atime": "2019-01-23T02:24:59.908Z",
+      "mtime": "2019-01-23T02:24:59.890Z",
+      "ctime": "2019-01-23T02:24:59.890Z",
+      "birthtime": "2019-01-16T01:13:31.000Z"
+    },
+    "0b13d196-26f3-50c6-8544-9a0cc9d0ae8f": {
+      "id": "0b13d196-26f3-50c6-8544-9a0cc9d0ae8f",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0e66df6ba4878ebefb4caaff8e54003e",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/blog.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/blog.js",
+      "relativePath": "blog.js",
+      "extension": "js",
+      "size": 2214,
+      "prettySize": "2.21 kB",
+      "modifiedTime": "2019-01-23T03:30:57.576Z",
+      "accessTime": "2019-01-23T03:30:57.676Z",
+      "changeTime": "2019-01-23T03:30:57.576Z",
+      "birthTime": "2019-01-23T02:18:00.701Z",
+      "root": "/",
+      "dir": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages",
+      "base": "blog.js",
+      "ext": ".js",
+      "name": "blog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28724333,
+      "blocks": 8,
+      "atimeMs": 1548214257676.3967,
+      "mtimeMs": 1548214257576.4895,
+      "ctimeMs": 1548214257576.4895,
+      "birthtimeMs": 1548209880700.8396,
+      "atime": "2019-01-23T03:30:57.676Z",
+      "mtime": "2019-01-23T03:30:57.576Z",
+      "ctime": "2019-01-23T03:30:57.576Z",
+      "birthtime": "2019-01-23T02:18:00.701Z"
+    },
+    "a825d5fc-8a3e-5766-8227-1962aa61eab8": {
+      "id": "a825d5fc-8a3e-5766-8227-1962aa61eab8",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1f4e87f1ba155b28b98a66953dbc73d9",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/new-site-for-chr-communications.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/new-site-for-chr-communications.js",
+      "relativePath": "new-site-for-chr-communications.js",
+      "extension": "js",
+      "size": 2056,
+      "prettySize": "2.06 kB",
+      "modifiedTime": "2019-01-23T03:55:37.420Z",
+      "accessTime": "2019-01-23T03:55:37.680Z",
+      "changeTime": "2019-01-23T03:55:37.420Z",
+      "birthTime": "2019-01-23T03:21:13.460Z",
+      "root": "/",
+      "dir": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages",
+      "base": "new-site-for-chr-communications.js",
+      "ext": ".js",
+      "name": "new-site-for-chr-communications",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28743136,
+      "blocks": 8,
+      "atimeMs": 1548215737680.4143,
+      "mtimeMs": 1548215737420.334,
+      "ctimeMs": 1548215737420.334,
+      "birthtimeMs": 1548213673459.8855,
+      "atime": "2019-01-23T03:55:37.680Z",
+      "mtime": "2019-01-23T03:55:37.420Z",
+      "ctime": "2019-01-23T03:55:37.420Z",
+      "birthtime": "2019-01-23T03:21:13.460Z"
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -2102,6 +2192,26 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "6b70e6199fbc60b8d9f966bd22772d53",
+        "description": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "jsonName": "blog-f7a",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+      "pluginCreatorId": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7ccc0fd3202343e4024f88fc56c87aec",
         "description": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
         "owner": "internal-data-bridge"
       }
@@ -2146,6 +2256,26 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /new-site-for-chr-communications/": {
+      "jsonName": "new-site-for-chr-communications-dac",
+      "internalComponentName": "ComponentNewSiteForChrCommunications",
+      "path": "/new-site-for-chr-communications/",
+      "component": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/new-site-for-chr-communications.js",
+      "componentChunkName": "component---src-pages-new-site-for-chr-communications-js",
+      "context": {},
+      "pluginCreator___NODE": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+      "pluginCreatorId": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/new-site-for-chr-communications.js",
+      "id": "SitePage /new-site-for-chr-communications/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f6e7a7968fee12401172872f703e7c81",
+        "description": "38d6eaa2-a14c-575f-ad98-a6d95dd47fb2",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /404.html": {
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
@@ -2169,7 +2299,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "e8131569fc4680ca53c4638bf965af61"
+    "PLUGINS_HASH": "c5f451c6d705e33c0b1227683d60a8aa"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2177,10 +2307,10 @@
         "sq--src-components-layout-js",
         "sq--src-components-seo-js"
       ],
-      "31a83130-4042-54e6-87ec-523fed6151c9": [
+      "3074d580-b641-5a96-bbc2-02dfb9644615": [
         "sq--src-components-image-js"
       ],
-      "34438de3-18e2-5257-81a2-cd50aeb137de": [
+      "f9e90ee1-2e20-5ff6-8df7-30d85e2d121e": [
         "sq--src-components-image-js"
       ]
     },
@@ -2196,11 +2326,18 @@
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-image-js": 2663961920,
+    "sq--src-components-image-js": 2410371390,
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "post-one-18e": "721/path---post-one-18-e-4c6-NZuapzHg3X9TaN1iIixfv1W23E"
+    "post-one-18e": "721/path---post-one-18-e-4c6-NZuapzHg3X9TaN1iIixfv1W23E",
+    "blog-new-site-for-chr-communications-33d": "696/path---blog-new-site-for-chr-communications-33-d-39d-NZuapzHg3X9TaN1iIixfv1W23E",
+    "new-site-for-chr-communications-f42": "109/path---new-site-for-chr-communications-f-42-b10-NZuapzHg3X9TaN1iIixfv1W23E",
+    "new-site-for-chr-communications-dac": "358/path---new-site-for-chr-communications-dac-4b4-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/.cache/dev-404-page.js"
+    },
     "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/404.js"
@@ -2217,19 +2354,23 @@
       "query": "",
       "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/index.js"
     },
-    "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/.cache/dev-404-page.js": {
+    "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/blog.js": {
       "query": "",
-      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/.cache/dev-404-page.js"
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/blog.js"
+    },
+    "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/new-site-for-chr-communications.js": {
+      "query": "",
+      "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/pages/new-site-for-chr-communications.js"
     }
   },
   "staticQueryComponents": {
     "sq--src-components-image-js": {
-      "name": "usersJohndursoDesktopGatsbyAppPersonalGatsbyjsSrcComponentsImageJs2663961920",
+      "name": "usersJohndursoDesktopGatsbyAppPersonalGatsbyjsSrcComponentsImageJs2410371390",
       "componentPath": "/Users/johndurso/Desktop/gatsby-app/personal-gatsbyjs/src/components/image.js",
       "id": "sq--src-components-image-js",
       "jsonName": "sq--src-components-image-js",
-      "query": "query usersJohndursoDesktopGatsbyAppPersonalGatsbyjsSrcComponentsImageJs2663961920 {\n  placeholderImage: file(relativePath: {eq: \"spongebob-patrick-creepy.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 2663961920
+      "query": "query usersJohndursoDesktopGatsbyAppPersonalGatsbyjsSrcComponentsImageJs2410371390 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2410371390
     },
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",

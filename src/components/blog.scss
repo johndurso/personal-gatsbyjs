@@ -1,0 +1,49 @@
+@import './g-styles.scss';
+
+.posts {
+	width: 100%;
+	max-width: 800px;
+	padding: 15px;
+
+	ul {
+		list-style: none;
+
+		li {
+			background: $dpurp;
+			position: relative;
+			padding: 30px 40px;
+			margin-bottom: 25px;
+
+			h3 {
+				margin-bottom: 15px;
+			}
+
+			h6 {
+				color: $sand;
+				margin: 5px 0;
+			}
+
+			&:last-child {
+				border: none;
+			}
+
+		}
+	}
+}
+
+.postBody {
+
+	h3 {
+		font-size: 2em;
+	}
+
+	a {
+
+	}
+}
+
+.backto {
+	font-size: 0.9em;
+	font-weight: bold;
+	padding: 3px 0;
+}

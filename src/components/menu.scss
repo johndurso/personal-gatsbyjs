@@ -1,0 +1,129 @@
+@import '/g-styles.scss';
+
+$rotate0 : rotate(0deg);
+$rotate135 : rotate(135deg);
+$rotate-135 : rotate(-135deg);
+
+@mixin rotate0($property) {
+  -webkit-transform: $rotate0;
+  -moz-transform: $rotate0;
+  -o-transform: $rotate0;
+  transform: $rotate0;
+}
+
+@mixin rotate135($property) {
+  -webkit-transform: $rotate135;
+  -moz-transform: $rotate135;
+  -o-transform: $rotate135;
+  transform: $rotate135;
+}
+
+@mixin rotate-135($property) {
+  -webkit-transform: $rotate-135;
+  -moz-transform: $rotate-135;
+  -o-transform: $rotate-135;
+  transform: $rotate-135;
+}
+
+$ease   : 0.3s ease all;
+
+@mixin ease($property){
+  transition: $ease;
+  -webkit-transition: $ease;
+  -moz-transition: $ease;
+}
+
+$sand : #c4af9c;
+
+/* Icon 1 */
+.upTop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#menuTrigger {
+  width: 40px;
+  height: 50px;
+  position: relative;
+  margin: 20px;
+  cursor: pointer;
+  @include ease(transition($ease));
+  @include rotate0(transition($rotate0));
+  
+  span{
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: $sand;
+    border-radius: 5px;
+    opacity: 1;
+    left: 0;
+    @include rotate0(transition($rotate0));
+    @include ease(transition($ease));
+    
+    &:nth-child(1) {
+      top: 0px;
+    }
+    &:nth-child(2) {
+      top: 10px;
+    }
+    &:nth-child(3) {
+      top: 20px;
+    }
+  }
+ }
+#menuTrigger.open {
+  span {
+    &:nth-child(1) {
+      top: 18px;
+      @include rotate135(transition($rotate135));
+    }
+    &:nth-child(2) {
+      opacity: 0;
+      left: -60px;
+    }
+    &:nth-child(3) {
+      top: 18px;
+      @include rotate-135(transition($rotate-135));
+    }
+  }
+}
+
+
+@media only screen and (max-width: 520px) {
+  .upTop {
+    display: block;
+  }
+  .navigation {
+    display: none;
+    position: absolute;
+    background: $dpurp;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    overflow: hidden;
+    ul {
+      position: absolute;
+      z-index: 1001;
+      display: none;
+      height: auto;
+      width: 200px;
+      top: 50%;
+      left: 50%;
+      transform:translate(-50%, -50%);
+      background: $dpurp;
+
+      li {
+        display: block;
+        font-size: 2em;
+        margin: 20px 0;
+      }
+    }
+    .trigger {
+      display: block;
+    }
+  }
+}
