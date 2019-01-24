@@ -9,7 +9,7 @@ import 'font-awesome/css/font-awesome.min.css';
 const Header = ({ siteTitle }) => (
   <div className="header">
     <div>
-      <h1><Link to="/">John Durso</Link></h1>
+      <h1><AniLink cover to="/" bg="#c4af9c">John Durso</AniLink></h1>
       <h2>Front-End Web Developer</h2>
       <h3>Detroit, Michigan</h3>
     </div>
@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
       <div className="socialShare">
         <div><a href="https://twitter.com/hivemindjohn/" target="_blank"><i className="fa fa-2x fa-twitter"></i></a></div>
         <div><a href="https://linkedin.com/in/johnkyrondurso/" target="_blank"><i className="fa fa-2x fa-linkedin"></i></a></div>
-        <div><AniLink cover to="/contact" bg="#49516e"><i className="fa fa-2x fa-envelope"></i></AniLink></div>
+        <div><AniLink cover to="/contact" bg="#c4af9c"><i className="fa fa-2x fa-envelope"></i></AniLink></div>
       </div>
     </div>
   </div>
