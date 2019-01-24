@@ -16,13 +16,12 @@ const Menu = () => {
               <span></span>
             </div>
         </div>
-        <div class="navigation">
-            
+        <div class="navigation"> 
         	<ul id="menuList">
-        		<li><AniLink cover to="/" bg="#36405f">Home</AniLink></li>
-        		<li><AniLink cover to="/about" bg="#36405f">About</AniLink></li>
-        		<li><AniLink cover to="/blog" bg="#36405f">Blog</AniLink></li>
-        		<li><AniLink cover to="/contact" bg="#36405f">Contact</AniLink></li>
+        		<li><AniLink cover to="/" bg="#49516e">Home</AniLink></li>
+        		<li><AniLink cover to="/about" bg="#49516e">About</AniLink></li>
+        		<li><AniLink cover to="/blog" bg="#49516e">Blog</AniLink></li>
+        		<li><AniLink cover to="/contact" bg="#49516e">Contact</AniLink></li>
         	</ul>
         </div>
     </div>

@@ -10,12 +10,17 @@ const Contact = () => (
   <Layout>
     <SEO title="Contact" />
     <div className="contactForm">
-        <div style={{textAlign: `center`,}}>
-            <img style={{maxWidth: `350px`, marginTop: `20px`,}} src={contact} />
-        </div>
-        <h2>Contact me</h2>
-        <p style={{fontWeight: `bold`,}}>Whether you want to contact me about building you a site, collaborate, or you want to learn more about 
+        <div className="aboveForm">
+            <div style={{textAlign: `center`,}}>
+                <img style={{maxWidth: `300px`, marginTop: `20px`,}} src={contact} alt="Contact me for Web Design needs" />
+            </div>
+            <div>
+                <h2>Contact me</h2>
+                <p style={{fontWeight: `bold`,}}>Whether you want to contact me about building you a site, collaborating, or you want to learn more about 
         web design and/or development, don't hesitate to drop me a message!</p>
+            </div>
+        </div>
+        
         <form name="contact" method="post" data-netlify="true">
           <div className="formName">
             <label>Your Name:<br /><input type="text" name="name" /></label>   
@@ -27,7 +32,7 @@ const Contact = () => (
             <label>Message: <br /><textarea name="message"></textarea></label>
           </div>
           <div className="formSubmit">
-            <button>Send</button>
+            <button className="button secondary">Send</button>
           </div>
         </form>
     </div>

@@ -11,8 +11,8 @@ const Blog = () => (
   <Layout>
     <SEO title="Blog" />
     <div className="posts">
-        <div style={{textAlign: `center`,}}>
-            <img style={{maxWidth: `350px`, width: `100%`,}} src={typewriter} />
+        <div>
+            <h2>Blog about web development, music, and whatever else</h2>
         </div>
     	<ul>
     		<li>
