@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 
 const Blog = () => (
   <Layout>
-    <SEO title="Blog - Choosing between Flexbox or Grid" />
+    <SEO title="Blog - What I've been listening to" />
     <div className="posts postBody">
         <ul>
             <li>

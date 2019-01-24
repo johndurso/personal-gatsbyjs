@@ -41,6 +41,7 @@ export default class Contact extends React.Component {
   render() {
     return (
         <Layout>
+        <SEO title="Contact" />
           <div className="contactForm">
             <div className="aboveForm">
                 <div style={{textAlign: `center`,}}>

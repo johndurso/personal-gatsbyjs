@@ -7,6 +7,7 @@ import SEO from '../components/seo'
 
 import developer from '../images/developer.svg';
 import bug from '../images/bug.svg';
+import monitor from '../images/monitor.svg';
 
 
 const IndexPage = () => (
@@ -19,7 +20,7 @@ const IndexPage = () => (
       </div>
       <div>
         <h2>Experienced web design and development</h2>
-        <p>I'm a designer and developer, who focuses on building high quality, fully optimized, responsive websites for any business, 
+        <p>I'm a designer and developer who focuses on building high quality, fully optimized, responsive websites for any business, 
         individual, or non-profit.</p>
       </div>
       <div>
@@ -28,7 +29,8 @@ const IndexPage = () => (
         every second of time they wait for your content to load (after 4 seconds). Don't miss out on potential customers!</p>
       </div>
       <div>
-        <img src={bug} alt="Web Design and Development services provided" />
+        <img src={bug} alt="Web Design and Development maintenance" /> <br />
+        <img className="mobileHide" src={monitor} alt="Web Design and Development services" />
       </div>
       <div>
         <h2>Services</h2>
@@ -36,13 +38,13 @@ const IndexPage = () => (
           <li><strong>Web Design/Development</strong><br />
               Designing and buidling a website that meets your needs.</li>
           <li><strong>SEO/SEM Optimization</strong><br />
-              Making sure you're utilizing the best content in your site that leads to strong search engine ranking results.</li>
+              Ensuring you're utilizing the best content in your site to produce strong search engine ranking results.</li>
           <li><strong>General Website Maintenance</strong><br />
-              Cleaning up code, getting rid of fluff, and minimizing file sizes to get your site back in order.</li>
+              Organizing code, eliminating redundant or unnecessary characters, and minimizing file sizes to promote future under-the-hood accessibility.</li>
           <li><strong>Website Optimization</strong><br />
-              Decreasing load time and file size site wide, along with general website tune ups.</li>
+              Decreasing load time, increasing responsiveness, and generally optimizing site performance.</li>
               <li><strong>SSL Authentication</strong><br />
-              Allowing all browsers to recognize that your website is safe to visit.<br />
+              Enabling security compatibility with all browsers.<br />
               <sup><strong>* <span style={{ color: `#FF7D7D`,}}>Required</span> for Google Chrome, Mozilla Firefox, and Safari beginning in 2019.</strong></sup></li>
         </ul>
       </div>
