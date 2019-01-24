@@ -24,9 +24,9 @@ const About = () => (
 			<h3>Where I'm at today</h3>
 		    <p>I'm currently a <em>Web Designer and Front-End Web Developer</em> at <strong>Thomson Reuters</strong>, where I handle large-scale email campaigns, 
 		    Wordpress development, and Adobe Experience Manager development. I chose this field because I'm fueled by the constant desire to learn. With the 
-		    development world constantly evolving, I like to remain active in courses and reading material relating to all things web. I also take on freelance 
-		    clients! Check out my most recent websites I built &mdash; <a href="https://giskitchen.com" target="_blank">Granite Import Solutions</a> and <a href="https://chrcommunications.com" target="_blank">CHR Communications</a></p>
-		    <p>My expertise and main interest lies in the foundation of the web: HTML, CSS, and Vanilla JavaScript. My 2019 coding goal is to get a solid grasp on React, JSX, and ES6.</p>
+		    development world constantly evolving, I like to remain active in courses and reading material relating to all things web. My expertise and main interests 
+		    lie in the foundation of the web: HTML, CSS, and Vanilla JavaScript. I also like to stay active in freelancing! Check out my most recent clientele 
+		    &mdash; <a href="https://giskitchen.com" target="_blank">Granite Import Solutions</a> and <a href="https://chrcommunications.com" target="_blank">CHR Communications</a></p>
 		</div>
 		<div>
 			<h3>Outside of coding</h3>

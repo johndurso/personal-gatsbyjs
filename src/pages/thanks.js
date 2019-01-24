@@ -9,7 +9,7 @@ import contact from '../images/contact.svg';
 const Thanks = () => (
   <Layout>
     <SEO title="Contact" />
-    <div>
+    <div style={{marginTop: `40px`, }}>
         <div style={{ textAlign: `center`,}}>
             <h2>Thank you for reaching out!</h2>
             <p style={{fontWeight: `bold`,}}>I'll be in touch with you soon!</p>

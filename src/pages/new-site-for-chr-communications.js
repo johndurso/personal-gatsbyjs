@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -10,7 +11,7 @@ const Blog = () => (
     <div className="posts postBody">
         <ul>
             <li>
-                <p><Link className="backto" to="/blog">Back to blog</Link></p>
+                <p><AniLink cover className="backto" to="/blog" bg="#c4af9c">Back to blog</AniLink></p>
                 <h3>New site for CHR Commnunications...</h3>
                 <h4>October 14, 2018</h4>
                 <p>I was luckily enough to work directly with CHR's founders, Kathy Hourigan and Chris Colcer, when designing and coding their new site!</p>

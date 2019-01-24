@@ -9,7 +9,7 @@
 }
 
 html {
-  font-family: Helvetica Neue, sans-serif;
+  font-family: $font;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -386,12 +386,13 @@ li > p {
   }
 }
 .aboutPage {
+  margin-top: 40px;
+
   p {
     font-size: 1.1em;
     line-height: 32px;
   }
   h2 {
-    font-size: 2em;
   }
   a {
     font-weight: bold;
@@ -436,7 +437,7 @@ li > p {
 
 .contactForm {
   width: 100%;
-  margin: auto;
+  margin: 40px auto;
 
   form {
     display: grid;
@@ -453,9 +454,6 @@ li > p {
     .formName,
     .formEmail,
     .formMessage {
-      label {
-        font-size: 0.9em;
-      }
       input,
       textarea {
         margin-top: 6px;
@@ -467,6 +465,7 @@ li > p {
         @include ease(transition($ease));
         &:focus {
           background: lighten($lpurp, 20%);
+          border-color: $sand;
         }
       }
     }
@@ -487,10 +486,32 @@ li > p {
       grid-column: 1 / 4;
       textarea {
         width: 100%;
+        font-family: $font;
       }
     }
     button {
       font-size: 1em;
+    }
+  }
+}
+
+// 404 PAGE
+.notFound {
+  display: grid;
+  margin-top: 30px;
+  grid-gap: 30px;
+  div {
+    &:first-child {
+      grid-column: 1 / span 1;
+      grid-row: 1;
+    }
+    &:last-child {
+      grid-column: 2 / span 2;
+      grid-row: 1;
+      img {
+        width: 100%;
+        max-width: 350px;
+      }
     }
   }
 }
@@ -595,6 +616,19 @@ li > p {
       grid-template-columns: 1fr 1fr 1fr; /*Make the grid smaller than the container*/
       margin-top: 25px;
       div {
+        text-align: center;
+      }
+    }
+  }
+  .notFound {
+    div {
+      &:first-child {
+        grid-column: 1 / span 3;
+        grid-row: 1;
+      }
+      &:last-child {
+        grid-column: 1 / span 3;
+        grid-row: 2;
         text-align: center;
       }
     }

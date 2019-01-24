@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -12,7 +13,7 @@ const Blog = () => (
     <div className="posts postBody">
         <ul>
             <li>
-                <p><Link className="backto" to="/blog">Back to blog</Link></p>
+                <p><AniLink cover className="backto" to="/blog" bg="#c4af9c">Back to blog</AniLink></p>
                 <h3>Trying out GatsbyJS...</h3>
                 <h4>January 11, 2019</h4>
                 <p>My New Year's Resolution was to code more. Most of my time in 2018 was spent on regular work which can get exhausting and burn you out! So now that I'm a remote worker, 

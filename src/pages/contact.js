@@ -83,7 +83,7 @@ export default class Contact extends React.Component {
               <div className="formMessage">
                 <label>
                   Message:<br />
-                  <textarea name="message" onChange={this.handleChange} />
+                  <textarea rows="5" name="message" onChange={this.handleChange} />
                 </label>
               </div>
               <div className="formSubmit">
