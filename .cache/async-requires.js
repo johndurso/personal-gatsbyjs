@@ -11,7 +11,8 @@ exports.components = {
   "component---src-pages-index-js": () => import("/Users/johndurso/Desktop/gatsby/personal/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-new-site-for-chr-communications-js": () => import("/Users/johndurso/Desktop/gatsby/personal/src/pages/new-site-for-chr-communications.js" /* webpackChunkName: "component---src-pages-new-site-for-chr-communications-js" */),
   "component---src-pages-trying-out-gatsbyjs-js": () => import("/Users/johndurso/Desktop/gatsby/personal/src/pages/trying-out-gatsbyjs.js" /* webpackChunkName: "component---src-pages-trying-out-gatsbyjs-js" */),
-  "component---src-pages-what-ive-been-listening-to-js": () => import("/Users/johndurso/Desktop/gatsby/personal/src/pages/what-ive-been-listening-to.js" /* webpackChunkName: "component---src-pages-what-ive-been-listening-to-js" */)
+  "component---src-pages-what-ive-been-listening-to-js": () => import("/Users/johndurso/Desktop/gatsby/personal/src/pages/what-ive-been-listening-to.js" /* webpackChunkName: "component---src-pages-what-ive-been-listening-to-js" */),
+  "component---src-pages-thanks-js": () => import("/Users/johndurso/Desktop/gatsby/personal/src/pages/thanks.js" /* webpackChunkName: "component---src-pages-thanks-js" */)
 }
 
 exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/Users/johndurso/Desktop/gatsby/personal/.cache/data.json")

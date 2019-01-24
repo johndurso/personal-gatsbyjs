@@ -14,6 +14,7 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("/Users/johndurso/Desktop/gatsby/personal/src/pages/index.js"))),
   "component---src-pages-new-site-for-chr-communications-js": hot(preferDefault(require("/Users/johndurso/Desktop/gatsby/personal/src/pages/new-site-for-chr-communications.js"))),
   "component---src-pages-trying-out-gatsbyjs-js": hot(preferDefault(require("/Users/johndurso/Desktop/gatsby/personal/src/pages/trying-out-gatsbyjs.js"))),
-  "component---src-pages-what-ive-been-listening-to-js": hot(preferDefault(require("/Users/johndurso/Desktop/gatsby/personal/src/pages/what-ive-been-listening-to.js")))
+  "component---src-pages-what-ive-been-listening-to-js": hot(preferDefault(require("/Users/johndurso/Desktop/gatsby/personal/src/pages/what-ive-been-listening-to.js"))),
+  "component---src-pages-thanks-js": hot(preferDefault(require("/Users/johndurso/Desktop/gatsby/personal/src/pages/thanks.js")))
 }
 

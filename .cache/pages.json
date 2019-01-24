@@ -45,6 +45,11 @@
         "path": "/new-site-for-chr-communications/"
     },
     {
+        "componentChunkName": "component---src-pages-thanks-js",
+        "jsonName": "thanks-e0e",
+        "path": "/thanks/"
+    },
+    {
         "componentChunkName": "component---src-pages-trying-out-gatsbyjs-js",
         "jsonName": "trying-out-gatsbyjs-730",
         "path": "/trying-out-gatsbyjs/"
