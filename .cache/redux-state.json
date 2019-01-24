@@ -1645,12 +1645,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-23T22:44:27.560Z",
+      "buildTime": "2019-01-24T00:14:24.333Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ccf71e257f4eeabea9394e2a77f071b2",
+        "contentDigest": "a6ac7db49f57ae2bbfdc9164cced7a0a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1660,7 +1660,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "1558f88927d4c3a5f468231c96e1ed35",
+        "contentDigest": "ecea781045713bfe9717b0edcc9ed255",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1672,7 +1672,7 @@
       "size": 352,
       "prettySize": "352 B",
       "modifiedTime": "2019-01-23T23:18:21.000Z",
-      "accessTime": "2019-01-23T23:18:20.000Z",
+      "accessTime": "2019-01-24T00:14:32.837Z",
       "changeTime": "2019-01-23T23:18:21.067Z",
       "birthTime": "2019-01-16T01:13:31.000Z",
       "root": "/",
@@ -1690,11 +1690,11 @@
       "blksize": 4096,
       "ino": 25825160,
       "blocks": 0,
-      "atimeMs": 1548285500000,
+      "atimeMs": 1548288872836.6423,
       "mtimeMs": 1548285501000,
       "ctimeMs": 1548285501067.2305,
       "birthtimeMs": 1547601211000,
-      "atime": "2019-01-23T23:18:20.000Z",
+      "atime": "2019-01-24T00:14:32.837Z",
       "mtime": "2019-01-23T23:18:21.000Z",
       "ctime": "2019-01-23T23:18:21.067Z",
       "birthtime": "2019-01-16T01:13:31.000Z"
@@ -1932,7 +1932,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "d0862ea09e8cfa896301f7567c689b9b",
+        "contentDigest": "8d919aaa672495811034b8c3ff72bea6",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1943,9 +1943,9 @@
       "extension": "",
       "size": 384,
       "prettySize": "384 B",
-      "modifiedTime": "2019-01-23T23:22:37.000Z",
-      "accessTime": "2019-01-23T23:22:37.000Z",
-      "changeTime": "2019-01-23T23:22:37.246Z",
+      "modifiedTime": "2019-01-24T00:47:07.000Z",
+      "accessTime": "2019-01-24T01:03:03.349Z",
+      "changeTime": "2019-01-24T00:47:10.105Z",
       "birthTime": "2019-01-16T01:13:31.000Z",
       "root": "/",
       "dir": "/Users/johndurso/Desktop/gatsby/personal/src",
@@ -1962,13 +1962,13 @@
       "blksize": 4096,
       "ino": 25825165,
       "blocks": 0,
-      "atimeMs": 1548285757000,
-      "mtimeMs": 1548285757000,
-      "ctimeMs": 1548285757246.4507,
+      "atimeMs": 1548291783348.596,
+      "mtimeMs": 1548290827000,
+      "ctimeMs": 1548290830105.4612,
       "birthtimeMs": 1547601211000,
-      "atime": "2019-01-23T23:22:37.000Z",
-      "mtime": "2019-01-23T23:22:37.000Z",
-      "ctime": "2019-01-23T23:22:37.246Z",
+      "atime": "2019-01-24T01:03:03.349Z",
+      "mtime": "2019-01-24T00:47:07.000Z",
+      "ctime": "2019-01-24T00:47:10.105Z",
       "birthtime": "2019-01-16T01:13:31.000Z"
     },
     "7ab4bd13-542b-5e42-9e56-f881e7feb7dc": {
@@ -2111,7 +2111,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c1c72dff2f9dc04456be1fc473bb0b4f",
+        "contentDigest": "9fae1c532e4f7714d8533e9f8f46a7d8",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/contact.js\"",
@@ -2121,11 +2121,11 @@
       "absolutePath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/contact.js",
       "relativePath": "contact.js",
       "extension": "js",
-      "size": 829,
-      "prettySize": "829 B",
-      "modifiedTime": "2019-01-23T23:22:32.926Z",
-      "accessTime": "2019-01-23T23:22:33.037Z",
-      "changeTime": "2019-01-23T23:22:32.926Z",
+      "size": 1299,
+      "prettySize": "1.3 kB",
+      "modifiedTime": "2019-01-24T00:47:03.967Z",
+      "accessTime": "2019-01-24T00:47:04.313Z",
+      "changeTime": "2019-01-24T00:47:03.967Z",
       "birthTime": "2019-01-16T03:05:08.000Z",
       "root": "/",
       "dir": "/Users/johndurso/Desktop/gatsby/personal/src/pages",
@@ -2142,13 +2142,13 @@
       "blksize": 4096,
       "ino": 26039053,
       "blocks": 8,
-      "atimeMs": 1548285753037.2534,
-      "mtimeMs": 1548285752926.4998,
-      "ctimeMs": 1548285752926.4998,
+      "atimeMs": 1548290824313.4753,
+      "mtimeMs": 1548290823966.6807,
+      "ctimeMs": 1548290823966.6807,
       "birthtimeMs": 1547607908000,
-      "atime": "2019-01-23T23:22:33.037Z",
-      "mtime": "2019-01-23T23:22:32.926Z",
-      "ctime": "2019-01-23T23:22:32.926Z",
+      "atime": "2019-01-24T00:47:04.313Z",
+      "mtime": "2019-01-24T00:47:03.967Z",
+      "ctime": "2019-01-24T00:47:03.967Z",
       "birthtime": "2019-01-16T03:05:08.000Z"
     },
     "580398c0-0986-5b53-accd-80ed556bde82": {
@@ -2376,206 +2376,6 @@
       "ctime": "2019-01-23T22:19:08.561Z",
       "birthtime": "2019-01-23T22:17:55.306Z"
     },
-    "SitePage /404/": {
-      "jsonName": "404-22d",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "fa844c63887622d4722605b652b9de1d",
-        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /about/": {
-      "jsonName": "about-f34",
-      "internalComponentName": "ComponentAbout",
-      "path": "/about/",
-      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/about.js",
-      "componentChunkName": "component---src-pages-about-js",
-      "context": {},
-      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/about.js",
-      "id": "SitePage /about/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "6dc85c2d5cb18ac5402bfd3512136e26",
-        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /blog/": {
-      "jsonName": "blog-f7a",
-      "internalComponentName": "ComponentBlog",
-      "path": "/blog/",
-      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/blog.js",
-      "componentChunkName": "component---src-pages-blog-js",
-      "context": {},
-      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/blog.js",
-      "id": "SitePage /blog/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "c2a9e7830925f1d23e4c210fa76b86d3",
-        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /choosing-between-flexbox-or-grid/": {
-      "jsonName": "choosing-between-flexbox-or-grid-bab",
-      "internalComponentName": "ComponentChoosingBetweenFlexboxOrGrid",
-      "path": "/choosing-between-flexbox-or-grid/",
-      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/choosing-between-flexbox-or-grid.js",
-      "componentChunkName": "component---src-pages-choosing-between-flexbox-or-grid-js",
-      "context": {},
-      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/choosing-between-flexbox-or-grid.js",
-      "id": "SitePage /choosing-between-flexbox-or-grid/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "f9a0d7d8103118a20452ed0c2e2c362d",
-        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /contact/": {
-      "jsonName": "contact-26a",
-      "internalComponentName": "ComponentContact",
-      "path": "/contact/",
-      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/contact.js",
-      "componentChunkName": "component---src-pages-contact-js",
-      "context": {},
-      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/contact.js",
-      "id": "SitePage /contact/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "7139b63229002dfc4145114592b85429",
-        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "jsonName": "index",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "d020b1a8fdfeaf1bcbce1681e547560c",
-        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /new-site-for-chr-communications/": {
-      "jsonName": "new-site-for-chr-communications-dac",
-      "internalComponentName": "ComponentNewSiteForChrCommunications",
-      "path": "/new-site-for-chr-communications/",
-      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/new-site-for-chr-communications.js",
-      "componentChunkName": "component---src-pages-new-site-for-chr-communications-js",
-      "context": {},
-      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/new-site-for-chr-communications.js",
-      "id": "SitePage /new-site-for-chr-communications/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "c224952ecc46d3dbf901da051dfdb0a2",
-        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /trying-out-gatsbyjs/": {
-      "jsonName": "trying-out-gatsbyjs-730",
-      "internalComponentName": "ComponentTryingOutGatsbyjs",
-      "path": "/trying-out-gatsbyjs/",
-      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/trying-out-gatsbyjs.js",
-      "componentChunkName": "component---src-pages-trying-out-gatsbyjs-js",
-      "context": {},
-      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/trying-out-gatsbyjs.js",
-      "id": "SitePage /trying-out-gatsbyjs/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "c859b53115846036b04057ed442e4bc5",
-        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /what-ive-been-listening-to/": {
-      "jsonName": "what-ive-been-listening-to-07f",
-      "internalComponentName": "ComponentWhatIveBeenListeningTo",
-      "path": "/what-ive-been-listening-to/",
-      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/what-ive-been-listening-to.js",
-      "componentChunkName": "component---src-pages-what-ive-been-listening-to-js",
-      "context": {},
-      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/what-ive-been-listening-to.js",
-      "id": "SitePage /what-ive-been-listening-to/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "e489079b557d1fd3f85b8e4ccc8c8b9e",
-        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "jsonName": "404-html-516",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "44ebb28c906f7094329484957820cb91",
-        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-        "owner": "internal-data-bridge"
-      }
-    },
     "31737413-3c02-590e-893f-d9bcbd1871a1": {
       "id": "31737413-3c02-590e-893f-d9bcbd1871a1",
       "children": [],
@@ -2800,6 +2600,206 @@
       "mtime": "2019-01-23T23:18:12.259Z",
       "ctime": "2019-01-23T23:18:17.359Z",
       "birthtime": "2019-01-23T23:18:12.241Z"
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fa844c63887622d4722605b652b9de1d",
+        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6dc85c2d5cb18ac5402bfd3512136e26",
+        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "jsonName": "blog-f7a",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c2a9e7830925f1d23e4c210fa76b86d3",
+        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /choosing-between-flexbox-or-grid/": {
+      "jsonName": "choosing-between-flexbox-or-grid-bab",
+      "internalComponentName": "ComponentChoosingBetweenFlexboxOrGrid",
+      "path": "/choosing-between-flexbox-or-grid/",
+      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/choosing-between-flexbox-or-grid.js",
+      "componentChunkName": "component---src-pages-choosing-between-flexbox-or-grid-js",
+      "context": {},
+      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/choosing-between-flexbox-or-grid.js",
+      "id": "SitePage /choosing-between-flexbox-or-grid/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f9a0d7d8103118a20452ed0c2e2c362d",
+        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7139b63229002dfc4145114592b85429",
+        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d020b1a8fdfeaf1bcbce1681e547560c",
+        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /new-site-for-chr-communications/": {
+      "jsonName": "new-site-for-chr-communications-dac",
+      "internalComponentName": "ComponentNewSiteForChrCommunications",
+      "path": "/new-site-for-chr-communications/",
+      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/new-site-for-chr-communications.js",
+      "componentChunkName": "component---src-pages-new-site-for-chr-communications-js",
+      "context": {},
+      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/new-site-for-chr-communications.js",
+      "id": "SitePage /new-site-for-chr-communications/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c224952ecc46d3dbf901da051dfdb0a2",
+        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /trying-out-gatsbyjs/": {
+      "jsonName": "trying-out-gatsbyjs-730",
+      "internalComponentName": "ComponentTryingOutGatsbyjs",
+      "path": "/trying-out-gatsbyjs/",
+      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/trying-out-gatsbyjs.js",
+      "componentChunkName": "component---src-pages-trying-out-gatsbyjs-js",
+      "context": {},
+      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/trying-out-gatsbyjs.js",
+      "id": "SitePage /trying-out-gatsbyjs/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c859b53115846036b04057ed442e4bc5",
+        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /what-ive-been-listening-to/": {
+      "jsonName": "what-ive-been-listening-to-07f",
+      "internalComponentName": "ComponentWhatIveBeenListeningTo",
+      "path": "/what-ive-been-listening-to/",
+      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/what-ive-been-listening-to.js",
+      "componentChunkName": "component---src-pages-what-ive-been-listening-to-js",
+      "context": {},
+      "pluginCreator___NODE": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "pluginCreatorId": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/what-ive-been-listening-to.js",
+      "id": "SitePage /what-ive-been-listening-to/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e489079b557d1fd3f85b8e4ccc8c8b9e",
+        "description": "833519e7-4048-5464-b54a-9ecbaed7e67d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/johndurso/Desktop/gatsby/personal/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "44ebb28c906f7094329484957820cb91",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -2813,10 +2813,12 @@
         "sq--src-components-seo-js"
       ],
       "f7f4cb53-80d5-51d9-883e-a15a5497959f": [
-        "sq--src-components-image-js"
+        "sq--src-components-image-js",
+        "sq--src-components-contact-image-js"
       ],
       "e7cec564-bc11-5793-8a69-7b7c266d17d8": [
-        "sq--src-components-image-js"
+        "sq--src-components-image-js",
+        "sq--src-components-contact-image-js"
       ],
       "9ad66302-45aa-5553-9c70-77083063ee9d": [],
       "a0d89e15-3efb-5e7a-946c-7b51e31622ef": [],
@@ -2845,13 +2847,9 @@
     "choosing-between-flexbox-or-grid-bab": "889/path---choosing-between-flexbox-or-grid-bab-163-NZuapzHg3X9TaN1iIixfv1W23E",
     "trying-out-gatsbyjs-730": "803/path---trying-out-gatsbyjs-730-c30-NZuapzHg3X9TaN1iIixfv1W23E",
     "what-ive-been-listening-to-07f": "566/path---what-ive-been-listening-to-07-f-db5-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-contact-image-js": 953336198
+    "sq--src-components-contact-image-js": 2410371390
   },
   "components": {
-    "/Users/johndurso/Desktop/gatsby/personal/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/.cache/dev-404-page.js"
-    },
     "/Users/johndurso/Desktop/gatsby/personal/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/404.js"
@@ -2887,6 +2885,10 @@
     "/Users/johndurso/Desktop/gatsby/personal/src/pages/what-ive-been-listening-to.js": {
       "query": "",
       "componentPath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/what-ive-been-listening-to.js"
+    },
+    "/Users/johndurso/Desktop/gatsby/personal/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/johndurso/Desktop/gatsby/personal/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {

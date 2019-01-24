@@ -345,16 +345,6 @@ blockquote {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-form {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
 noscript {
   margin-left: 0;
   margin-right: 0;
@@ -537,6 +527,69 @@ li > p {
   margin-top: 50px;
 }
 
+
+
+
+// CONTACT FORM
+
+.contactForm {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+
+  form {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background: $dpurp;
+    border-radius: 10px;
+    padding: 20px;
+    grid-gap: 1em;
+    .formName,
+    .formEmail,
+    .formMessage {
+      margin-bottom: 10px;
+    }
+    .formName,
+    .formEmail,
+    .formMessage {
+      label {
+        font-size: 0.9em;
+      }
+      input,
+      textarea {
+        margin-top: 6px;
+        background: lighten($lpurp, 10%);
+        color: #fff;
+        font-weight: bold;
+        border-bottom: 3px solid lighten($lpurp, 20%);
+        @include ease(transition($ease));
+        &:focus {
+          background: lighten($lpurp, 20%);
+        }
+      }
+    }
+    .formName,
+    .formEmail {
+      input {
+        width: 100%;
+        padding: 5px;
+      }
+    }
+    .formName {
+      grid-column: 1 / 2;
+    }
+    .formEmail {
+      grid-column: 2 / 4;
+    }
+    .formMessage {
+      grid-column: 1 / 4;
+      textarea {
+        width: 100%;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 780px) {
   .grid-container {
     grid-column-gap: 4em;
@@ -576,6 +629,17 @@ li > p {
       margin-top: 25px;
       div {
         text-align: center;
+      }
+    }
+  }
+  .contactForm {
+    form {
+      grid-template-columns: 4fr;
+      .formName {
+        grid-column: 1 / 4;
+      }
+      .formEmail {
+        grid-column: 1 / 4;
       }
     }
   }
