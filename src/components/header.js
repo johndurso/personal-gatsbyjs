@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
     </div>
     <div>
       <div className="socialShare">
-        <div><a href="https://twitter.com/hivemindjohn/" target="_blank"><i className="fa fa-2x fa-twitter"></i></a></div>
+        <div><a href="https://twitter.com/johndursodev/" target="_blank"><i className="fa fa-2x fa-twitter"></i></a></div>
         <div><a href="https://linkedin.com/in/johnkyrondurso/" target="_blank"><i className="fa fa-2x fa-linkedin"></i></a></div>
         <div><AniLink cover to="/contact" bg="#c4af9c"><i className="fa fa-2x fa-envelope"></i></AniLink></div>
       </div>
