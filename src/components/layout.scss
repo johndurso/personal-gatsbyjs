@@ -426,7 +426,7 @@ li > p {
 
 @media only screen and (max-width: 780px) {
   .mobileHide {
-    display: none;
+    display: none !important;
   }
   
   .grid-container {
