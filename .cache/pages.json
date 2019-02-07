@@ -55,6 +55,11 @@
         "path": "/trying-out-gatsbyjs/"
     },
     {
+        "componentChunkName": "component---src-pages-use-a-preprocessor-and-dont-look-back-js",
+        "jsonName": "use-a-preprocessor-and-dont-look-back-073",
+        "path": "/use-a-preprocessor-and-dont-look-back/"
+    },
+    {
         "componentChunkName": "component---src-pages-what-ive-been-listening-to-js",
         "jsonName": "what-ive-been-listening-to-07f",
         "path": "/what-ive-been-listening-to/"

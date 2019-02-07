@@ -81,6 +81,20 @@ export default class Contact extends React.Component {
                   <input type="email" name="email" onChange={this.handleChange} />
                 </label>
               </div>
+              <div className="formReason">
+                <label>
+                  I need:<br />
+                  <select onChange={this.handleChange}>
+                    <option value="web">Web Design/Development</option>
+                    <option value="seo">SEO/SEM Optimization</option>
+                    <option value="maintenance">General Website Maintenance</option>
+                    <option value="optimization">Website Optimization</option>
+                    <option value="ssl">SSL Authentication</option>
+                    <option value="general">General Inquiry</option>
+                  </select>
+
+                </label>
+              </div>
               <div className="formMessage">
                 <label>
                   Message:<br />

@@ -17,6 +17,15 @@ const Blog = () => (
         </div>
         <div>
         	<ul>
+                <li>
+                    <h6>February 7, 2019</h6>
+                    <h3>Use a preprocessor and don't look back...</h3>
+                    <p>Back in 2014 while I was at my first design job ever, a coworker of mine recommended I get involved in SASS/SCSS 
+                    as soon as possible. That advice didn't really resonate with me until I started used Ruby on Rails, which pretty much 
+                    requires you to use a preprocessor. After I forced myself...</p>
+                    <p><AniLink cover className="button readMore" to="/use-a-preprocessor-and-dont-look-back/" bg="#c4af9c">Read more...</AniLink></p>
+                </li>
+
         		<li>
         		    <h6>January 21, 2019</h6>
         			<h3>What I've been listening to...</h3>

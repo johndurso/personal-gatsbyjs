@@ -265,6 +265,24 @@ li > p {
   margin-top: 50px;
 }
 .homePage {
+  .svg-icon {
+    position: relative;
+    top: 5px;
+    width: 1.4em;
+    height: 1.4em;
+    margin: 0 15px;
+  }
+
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: $sand;
+  }
+
+  .svg-icon circle {
+    stroke: $sand;
+    stroke-width: 1;
+  }
   div {
     &:first-child {
       grid-column: 3 / span 1;
@@ -290,6 +308,15 @@ li > p {
       grid-column: 1 / span 3;
       grid-row: 4;
       margin-bottom: 40px;
+    }
+  }
+  ul {
+    list-style: none;
+    li {
+      span {
+        color: $sand;
+        font-weight: bold;
+      }
     }
   }
 }
@@ -356,19 +383,25 @@ li > p {
     grid-gap: 1em;
     .formName,
     .formEmail,
-    .formMessage {
+    .formMessage,
+    .formReason {
       margin-bottom: 10px;
     }
     .formName,
     .formEmail,
-    .formMessage {
+    .formMessage,
+    .formReason {
       input,
-      textarea {
+      textarea,
+      select {
         margin-top: 6px;
         background: lighten($lpurp, 10%);
         color: #fff;
         font-size: 1.2em;
         font-weight: bold;
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
         border-bottom: 3px solid lighten($lpurp, 20%);
         @include ease(transition($ease));
         &:focus {
@@ -378,8 +411,10 @@ li > p {
       }
     }
     .formName,
-    .formEmail {
-      input {
+    .formEmail,
+    .formReason {
+      input,
+      select {
         width: 100%;
         padding: 7px;
       }
@@ -388,7 +423,20 @@ li > p {
       grid-column: 1 / 2;
     }
     .formEmail {
-      grid-column: 2 / 4;
+      grid-column: 2 / 3;
+    }
+    .formReason {
+      grid-column: 3 / 4;
+      select {
+        outline: none;
+        margin-top: 5px;
+        background: lighten($lpurp, 10%);
+        color: #fff;
+        font-size: 1.125em;
+        font-weight: bold;
+        border-bottom: 3px solid lighten($lpurp, 20%);
+        @include ease(transition($ease));
+      }
     }
     .formMessage {
       grid-column: 1 / 4;
@@ -399,6 +447,19 @@ li > p {
     }
     button {
       font-size: 1em;
+      padding: 10px 30px;
+      background: $sand;
+      border-radius: 5px;
+      border: 2px solid darken($sand, 10%);
+      outline: 0;
+      color: $dpurp;
+      @include ease(transition($ease));
+      &:hover {
+        cursor: pointer;
+        background: darken($dpurp, 5%);
+        border-color: darken($dpurp, 10%);
+        color: $sand;
+      }
     }
   }
 }
