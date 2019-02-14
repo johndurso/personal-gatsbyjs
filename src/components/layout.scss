@@ -240,6 +240,13 @@ li > p {
     grid-column-gap: 1em;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  svg {
+    fill: $sand;
+    &:hover {
+      opacity: 0.7;
+      @include ease(transition($ease));
+    }
+  }
 }
 
 .footer {
@@ -650,6 +657,9 @@ li > p {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  html {
+    transition: none !important;
+  }
   .gatsby-plugin-transition-link-portal {
     display: none !important;
   }

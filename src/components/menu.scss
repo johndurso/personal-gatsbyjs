@@ -1,5 +1,12 @@
 @import '/g-styles.scss';
 
+svg {
+  fill: $sand;
+  &:hover {
+    opacity: 0.7;
+    @include ease(transition($ease));
+  }
+}
 
 .menu-toggle {
   position: absolute;

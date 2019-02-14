@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `johndurso.co`,
-    description: `Web Designer and Developer from Detroit, Michiga dedicated to building responsive, optimized websites.`,
+    description: `Web Designer and Developer from Detroit, Michigan dedicated to building responsive, optimized websites.`,
     author: `@hivemindjohn`,
   },
   plugins: [
