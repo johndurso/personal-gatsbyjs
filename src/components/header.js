@@ -6,8 +6,10 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 import './g-styles.scss';
 import 'font-awesome/css/font-awesome.min.css';
 
+import bg from '../images/bg.png';
+
 const Header = ({ siteTitle }) => (
-  <div className="header">
+  <div className="header" style={{ overflow: `hidden`}}>
     <div>
       <h1><AniLink cover to="/" bg="#c4af9c">John Durso</AniLink></h1>
       <h2>Front-End Web Developer</h2>
