@@ -6,10 +6,6 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 import './g-styles.scss';
 import 'font-awesome/css/font-awesome.min.css';
 
-import twitter from '../images/twitter.svg';
-import linkedin from '../images/linkedin.svg';
-import mail from '../images/mail.svg';
-
 const Header = ({ siteTitle }) => (
   <div className="header" style={{ overflow: `hidden`}}>
     <div>

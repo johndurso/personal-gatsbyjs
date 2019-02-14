@@ -3,8 +3,6 @@ import React from 'react'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import './menu.scss';
-import open from '../images/menuOpen.svg';
-import close from '../images/menuClose.svg';
 
 
 const Menu = () => {
