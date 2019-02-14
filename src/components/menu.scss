@@ -15,7 +15,7 @@ svg {
   padding: .75em 15px;
   line-height: 1em;
   font-size: 1.5em;
-  color: #c4af9c;
+  color: $sand;
   cursor: pointer;
 }
 
@@ -46,9 +46,7 @@ svg {
     margin: 0 auto;
     max-width: 960px;
     padding: 2.5em 0 0;
-    //height: 100vh;
     overflow-y: none;
-    //min-height: 100%;
     width: 100vw;
     background: $lpurp;
     display: grid;
@@ -63,33 +61,38 @@ svg {
         font-weight: bold;
         color: $sand;
         text-decoration: none;
+        &:hover,
+        &:focus {
+          color: darken($sand, 15%);
+        }
       }
     }
   }
-}
-
-.main-menu a:hover,
-.main-menu a:focus,
-.main-menu .menu-close:hover,
-#main-menu-checkbox:focus ~ .navigation .menu-close {
-  background: $dpurp;
+  .menu-close {
+    &:hover {
+      color: darken($sand, 15%);
+    }
+  }
 }
 
 .main-menu .menu-close {
   position: absolute;
   right: 0;
   top: 0;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  padding: 5px 15px;
   text-align: center;
   cursor: pointer;
   border-radius: 100%;
   display: block;
   font-size: 1.5em;
-  margin: 5px 15px 0 0;
   color: $sand;
   text-decoration: none;
+  &:hover {
+    background: none;
+  }
 }
 
 #main-menu-checkbox:checked ~ .navigation .main-menu,
