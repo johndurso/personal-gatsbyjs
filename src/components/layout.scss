@@ -648,3 +648,9 @@ li > p {
     }
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .gatsby-plugin-transition-link-portal {
+    display: none !important;
+  }
+}
