@@ -92,7 +92,6 @@ export default class Contact extends React.Component {
                     <option value="ssl">SSL Authentication</option>
                     <option value="general">General Inquiry</option>
                   </select>
-
                 </label>
               </div>
               <div className="formMessage">
