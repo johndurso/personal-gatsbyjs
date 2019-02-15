@@ -70,34 +70,18 @@ export default class Contact extends React.Component {
                 </label>
               </p>
               <div className="formName">
-                <label>
-                  Your name:<br />
-                  <input type="text" name="name" onChange={this.handleChange} />
+                <label>Name
+                  <input type="text" name="name" onChange={this.handleChange} placeholder="John Doe" />
                 </label>
               </div>
               <div className="formEmail">
-                <label>
-                  Your email:<br />
-                  <input type="email" name="email" onChange={this.handleChange} />
-                </label>
-              </div>
-              <div className="formReason">
-                <label>
-                  I need:<br />
-                  <select onChange={this.handleChange}>
-                    <option value="web">Web Design/Development</option>
-                    <option value="seo">SEO/SEM Optimization</option>
-                    <option value="maintenance">General Website Maintenance</option>
-                    <option value="optimization">Website Optimization</option>
-                    <option value="ssl">SSL Authentication</option>
-                    <option value="general">General Inquiry</option>
-                  </select>
+                <label>Email
+                  <input type="email" name="email" onChange={this.handleChange} placeholder="name@website.com" />
                 </label>
               </div>
               <div className="formMessage">
-                <label>
-                  Message:<br />
-                  <textarea rows="5" name="message" onChange={this.handleChange} />
+                <label>Reason for contact
+                  <textarea rows="5" name="message" onChange={this.handleChange} placeholder="Web Design/Development, SEO, SSL Certification, Maintenance, Optimization, etc." />
                 </label>
               </div>
               <div className="formSubmit">

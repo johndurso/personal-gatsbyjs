@@ -419,27 +419,32 @@ li > p {
   form {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    background: $dpurp;
     border-radius: 10px;
     padding: 20px;
     grid-gap: 1em;
     .formName,
     .formEmail,
-    .formMessage,
-    .formReason {
+    .formMessage {
       margin-bottom: 10px;
+      label {
+        font-size: .6em;
+        color: $sand;
+        padding: 8px 0;
+        text-transform: uppercase;
+      }
     }
     .formName,
     .formEmail,
-    .formMessage,
-    .formReason {
+    .formMessage {
+      position: relative;
       input,
-      textarea,
-      select {
+      textarea {
+        position: relative;
+        display: block;
         margin-top: 6px;
-        background: lighten($lpurp, 10%);
-        color: #fff;
-        font-size: 1.2em;
+        background: lighten($dpurp, 2%);
+        color: lighten($dpurp, 15%);
+        font-size: 1.8em;
         font-weight: bold;
         border-top: 0;
         border-right: 0;
@@ -448,13 +453,13 @@ li > p {
         @include ease(transition($ease));
         &:focus {
           background: lighten($lpurp, 20%);
+          color: #fff;
           border-color: $sand;
         }
       }
     }
     .formName,
-    .formEmail,
-    .formReason {
+    .formEmail {
       input,
       select {
         width: 100%;
@@ -465,41 +470,28 @@ li > p {
       grid-column: 1 / 2;
     }
     .formEmail {
-      grid-column: 2 / 3;
-    }
-    .formReason {
-      grid-column: 3 / 4;
-      select {
-        outline: none;
-        background: lighten($lpurp, 10%);
-        color: #fff;
-        font-size: 1.1em;
-        font-weight: bold;
-        border-bottom: 3px solid lighten($lpurp, 20%);
-        @include ease(transition($ease));
-      }
+      grid-column: 2 / 4;
     }
     .formMessage {
       grid-column: 1 / 4;
       textarea {
         width: 100%;
         font-family: $font;
+        padding: 7px;
       }
     }
     button {
-      font-size: 1em;
-      padding: 10px 30px;
+      font-size: 1.15em;
+      padding: 10px 40px;
       background: $sand;
-      border-radius: 5px;
-      border: 2px solid darken($sand, 10%);
       outline: 0;
+      border: none;
       color: $dpurp;
       @include ease(transition($ease));
       &:hover {
         cursor: pointer;
-        background: darken($dpurp, 5%);
-        border-color: darken($dpurp, 10%);
-        color: $sand;
+        background: darken($sand, 10%);
+        color: $lpurp;
       }
     }
   }
