@@ -1713,12 +1713,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-15T18:45:05.088Z",
+      "buildTime": "2019-02-15T20:27:14.655Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9bb9459784c68838d53844daaf1b5357",
+        "contentDigest": "dae774174939d86f4a30fae2aaae3745",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1728,7 +1728,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "5c28e1a9373e4412242002fe7d2a7fb5",
+        "contentDigest": "315a73769cdccaecf1fb292e93a3b633",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1740,7 +1740,7 @@
       "size": 576,
       "prettySize": "576 B",
       "modifiedTime": "2019-02-14T22:09:03.000Z",
-      "accessTime": "2019-02-15T18:45:44.928Z",
+      "accessTime": "2019-02-15T20:27:19.163Z",
       "changeTime": "2019-02-14T22:09:06.827Z",
       "birthTime": "2019-01-16T01:13:31.000Z",
       "root": "/",
@@ -1758,11 +1758,11 @@
       "blksize": 4096,
       "ino": 25825160,
       "blocks": 0,
-      "atimeMs": 1550256344928.161,
+      "atimeMs": 1550262439162.7122,
       "mtimeMs": 1550182143000,
       "ctimeMs": 1550182146827.1624,
       "birthtimeMs": 1547601211000,
-      "atime": "2019-02-15T18:45:44.928Z",
+      "atime": "2019-02-15T20:27:19.163Z",
       "mtime": "2019-02-14T22:09:03.000Z",
       "ctime": "2019-02-14T22:09:06.827Z",
       "birthtime": "2019-01-16T01:13:31.000Z"
@@ -2519,7 +2519,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "dce468f1a0a02f3740e317d4f9da2153",
+        "contentDigest": "e14087ce437c80a4203baaa6396a40d3",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -2530,9 +2530,9 @@
       "extension": "",
       "size": 448,
       "prettySize": "448 B",
-      "modifiedTime": "2019-02-15T20:10:39.000Z",
-      "accessTime": "2019-02-15T20:10:39.000Z",
-      "changeTime": "2019-02-15T20:10:39.504Z",
+      "modifiedTime": "2019-02-15T20:27:39.000Z",
+      "accessTime": "2019-02-15T20:27:39.000Z",
+      "changeTime": "2019-02-15T20:27:39.419Z",
       "birthTime": "2019-01-16T01:13:31.000Z",
       "root": "/",
       "dir": "/Users/johndurso/Desktop/gatsby/personal/src",
@@ -2549,13 +2549,13 @@
       "blksize": 4096,
       "ino": 25825165,
       "blocks": 0,
-      "atimeMs": 1550261439000,
-      "mtimeMs": 1550261439000,
-      "ctimeMs": 1550261439504.2097,
+      "atimeMs": 1550262459000,
+      "mtimeMs": 1550262459000,
+      "ctimeMs": 1550262459418.9788,
       "birthtimeMs": 1547601211000,
-      "atime": "2019-02-15T20:10:39.000Z",
-      "mtime": "2019-02-15T20:10:39.000Z",
-      "ctime": "2019-02-15T20:10:39.504Z",
+      "atime": "2019-02-15T20:27:39.000Z",
+      "mtime": "2019-02-15T20:27:39.000Z",
+      "ctime": "2019-02-15T20:27:39.419Z",
       "birthtime": "2019-01-16T01:13:31.000Z"
     },
     "cd3a46e1-3fa5-570f-9590-2e2c70d7b007": {
@@ -2743,7 +2743,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "3270fbaf9946f895056381455c30b636",
+        "contentDigest": "4321bf36e17d34122423e358c1e51086",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/contact.js\"",
@@ -2753,11 +2753,11 @@
       "absolutePath": "/Users/johndurso/Desktop/gatsby/personal/src/pages/contact.js",
       "relativePath": "contact.js",
       "extension": "js",
-      "size": 3265,
-      "prettySize": "3.27 kB",
-      "modifiedTime": "2019-02-15T20:10:37.067Z",
-      "accessTime": "2019-02-15T20:10:37.285Z",
-      "changeTime": "2019-02-15T20:10:37.067Z",
+      "size": 3153,
+      "prettySize": "3.15 kB",
+      "modifiedTime": "2019-02-15T20:27:23.624Z",
+      "accessTime": "2019-02-15T20:27:25.465Z",
+      "changeTime": "2019-02-15T20:27:23.624Z",
       "birthTime": "2019-01-16T03:05:08.000Z",
       "root": "/",
       "dir": "/Users/johndurso/Desktop/gatsby/personal/src/pages",
@@ -2774,13 +2774,13 @@
       "blksize": 4096,
       "ino": 26039053,
       "blocks": 8,
-      "atimeMs": 1550261437284.806,
-      "mtimeMs": 1550261437066.766,
-      "ctimeMs": 1550261437066.766,
+      "atimeMs": 1550262445464.6084,
+      "mtimeMs": 1550262443623.8506,
+      "ctimeMs": 1550262443623.8506,
       "birthtimeMs": 1547607908000,
-      "atime": "2019-02-15T20:10:37.285Z",
-      "mtime": "2019-02-15T20:10:37.067Z",
-      "ctime": "2019-02-15T20:10:37.067Z",
+      "atime": "2019-02-15T20:27:25.465Z",
+      "mtime": "2019-02-15T20:27:23.624Z",
+      "ctime": "2019-02-15T20:27:23.624Z",
       "birthtime": "2019-01-16T03:05:08.000Z"
     },
     "580398c0-0986-5b53-accd-80ed556bde82": {
@@ -3301,8 +3301,8 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-seo-js",
-        "sq--src-components-layout-js"
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
       ]
     },
     "connections": {}

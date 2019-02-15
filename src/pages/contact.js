@@ -41,7 +41,6 @@ export default class Contact extends React.Component {
   render() {
     return (
         <Layout>
-        <SEO title="Contact" />
           <div className="contactForm">
             <div className="aboveForm">
                 <div style={{textAlign: `center`,}}>
@@ -70,18 +69,21 @@ export default class Contact extends React.Component {
                 </label>
               </p>
               <div className="formName">
-                <label>Name
-                  <input type="text" name="name" onChange={this.handleChange} placeholder="John Doe" />
+                <label>
+                  Your name:<br />
+                  <input type="text" name="name" onChange={this.handleChange} />
                 </label>
               </div>
               <div className="formEmail">
-                <label>Email
-                  <input type="email" name="email" onChange={this.handleChange} placeholder="name@website.com" />
+                <label>
+                  Your email:<br />
+                  <input type="email" name="email" onChange={this.handleChange} />
                 </label>
               </div>
               <div className="formMessage">
-                <label>Reason for contact
-                  <textarea rows="5" name="message" onChange={this.handleChange} placeholder="Web Design/Development, SEO, SSL Certification, Maintenance, Optimization, etc." />
+                <label>
+                  Message:<br />
+                  <textarea name="message" onChange={this.handleChange} />
                 </label>
               </div>
               <div className="formSubmit">
