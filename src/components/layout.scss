@@ -375,21 +375,25 @@ li > p {
     font-weight: bold;
   }
   div {
+    &:first-child,
+    &:nth-child(2) {
+      grid-row: 1 / span 1;
+    }
     &:first-child {
       grid-column: 3 / span 2;
-      grid-row: 1 / span 1;
     }
     &:nth-child(2) {
       grid-column: 1 / span 2;
-      grid-row: 1 / span 1;
+    }
+    &:nth-child(3),
+    &:nth-child(4) {
+      grid-column: 1 / span 4;
     }
     &:nth-child(3) {
       grid-row: 2 / span 1;
-      grid-column: 1 / span 4;
     }
     &:nth-child(4) {
       grid-row: 3 / span 1;
-      grid-column: 1 / span 4;
     }
   }
 }
@@ -446,9 +450,7 @@ li > p {
         color: lighten($dpurp, 15%);
         font-size: 1.8em;
         font-weight: bold;
-        border-top: 0;
-        border-right: 0;
-        border-left: 0;
+        border-top: 0; border-right: 0; border-left: 0;
         border-bottom: 3px solid lighten($lpurp, 20%);
         @include ease(transition($ease));
         &:focus {
