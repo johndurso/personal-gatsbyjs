@@ -99,7 +99,7 @@ html {
 body {
   background: $dpurp;
   color: #ccc;
-  font-family: Helvetica Neue, sans-serif;
+  font-family: $font;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -256,7 +256,6 @@ li > p {
   }
 
   h2 {
-    margin: 0;
     font-size: 1.5em;
     padding: 0 10px;
     font-weight: 300;
@@ -290,6 +289,7 @@ li > p {
   width: 100%;
   padding: 20px 0;
   margin: 0;
+
   p {
     margin: auto;
     text-align: center;
@@ -401,13 +401,12 @@ li > p {
 .aboveForm {
   display: grid;
   div {
+    grid-row: 1;
     &:first-child {
       grid-column: 3 / span 1;
-      grid-row: 1;
     }
     &:last-child {
       grid-column: 1 / span 2;
-      grid-row: 1;
     }
   }
 }
@@ -427,7 +426,8 @@ li > p {
     .formMessage {
       margin-bottom: 10px;
       label {
-        font-size: .6em;
+        font-size: .8em;
+        font-weight: bold;
         color: $sand;
         padding: 8px 0;
         text-transform: uppercase;
@@ -481,8 +481,9 @@ li > p {
       }
     }
     button {
-      font-size: 1.15em;
-      padding: 10px 40px;
+      font-size: 0.8em;
+      font-weight: bold;
+      padding: 20px 40px;
       background: $sand;
       outline: 0;
       border: none;
@@ -596,11 +597,12 @@ li > p {
 
 @media only screen and (min-height: 900px) {
   .footer {
-    z-index: 999;
-    bottom: 0px;
-    left: 0;
-    margin-top: 150px;
-    position: fixed;
+    z-index: -2;
+    height: 100px;
+    background: $lpurp;
+    p {
+      margin-top: 15px;
+    }
   }
 }
 
@@ -662,20 +664,17 @@ li > p {
 
   .aboutPage {
     div {
+      grid-column: 1 / span 3;
       &:first-child {
-        grid-column: 1 / span 3;
         grid-row: 2;
       }
       &:nth-child(2) {
-        grid-column: 1 / span 3;
         grid-row: 1;
       }
       &:nth-child(3) {
-        grid-column: 1 / span 3;
         grid-row: 3;
       }
       &:nth-child(4) {
-        grid-column: 1 / span 3;
         grid-row: 4;
       }
     }
