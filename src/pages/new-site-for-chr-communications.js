@@ -13,6 +13,8 @@ const Blog = () => (
             <li>
                 <p><AniLink cover className="backto" to="/blog" bg="#c4af9c">Back to blog</AniLink></p>
                 <h3>New site for CHR Commnunications...</h3>
+                <h5 style="color: tomato;">UPDATE: As of June 2019, CHR Communications decided to close shop after over 20 years of service.</h4>
+                
                 <h4>October 14, 2018</h4>
                 <h5 style="color: tomato;">UPDATE: As of June 2019, CHR Communications decided to close shop after over 20 years of service.</h4>
                 <p>I was luckily enough to work directly with CHR's founders, Kathy Hourigan and Chris Colcer, when designing and coding their new site!</p>
