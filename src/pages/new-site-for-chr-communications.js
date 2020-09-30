@@ -5,6 +5,23 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+const newUpdate = {
+    color: '',
+    display: 'block',
+    backgroundColor: '$sand',
+    fontWeight: 'bold',
+    fontSize: '1.2em',
+    lineHeight: '1.5em',
+    margin: '35px 0'
+}
+
+const disabled = {
+    cursor: 'not-allowed',
+    background: '#333',
+    textDecoration: 'line-through',
+    background: '$gray'
+}
+
 const Blog = () => (
   <Layout>
     <SEO title="Blog - New site for CHR Communications" />
@@ -12,11 +29,9 @@ const Blog = () => (
         <ul>
             <li>
                 <p><AniLink cover className="backto" to="/blog" bg="#c4af9c">Back to blog</AniLink></p>
-                <h3>New site for CHR Commnunications...</h3>
-                <h5 style="color: tomato;">UPDATE: As of June 2019, CHR Communications decided to close shop after over 20 years of service.</h4>
-                
+                <h3>New site for CHR Commnunications...</h3>                
                 <h4>October 14, 2018</h4>
-                <h5 style="color: tomato;">UPDATE: As of June 2019, CHR Communications decided to close shop after over 20 years of service.</h4>
+                <p className="newUpdate">After 25 years of dedicated service, the wonderful team at CHR Communications have decided to retire! As of June 2019, their website will not be available.</p>
                 <p>I was luckily enough to work directly with CHR's founders, Kathy Hourigan and Chris Colcer, when designing and coding their new site!</p>
                 <p>For decades, Kathy and Chris have had a successful business throughout Metro Detroit and Metro Charlotte. They've done this without having a website built
                 within the last 10+ years. They decided it was time for an update!</p>
@@ -27,7 +42,7 @@ const Blog = () => (
                 contact information for the two of them.</p>
                 <p>From start to finish, the entire process took just over a week! They're very happy with the finished product, and I can easily say they were some of my favorite 
                 clients to work with.</p>
-                <p><a className="button readMore" href="https://chrcommunications.com/">Check out their site!</a></p>
+                <p><a className="button readMore" style={disabled}>Check out their site!</a></p>
             </li>
         </ul>
     </div>
